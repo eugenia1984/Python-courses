@@ -1,5 +1,6 @@
 ENGLISH
-#Introduction to programming with Python
+
+# Introduction to programming with Python
 
 I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introduction to Programming with Python’ and while ‘m watching the videos I practice the exercises <br>
 
@@ -32,8 +33,11 @@ _This Project only has one master branch, it was a small project so it did not n
 ## Notes
 I appreciate your interest in this Project <br/>
 ⌨️ with ❤️ by [María Eugenia Costa](https://github.com/eugenia1984) 😊 and follow me at [LinkedIn]( http://www.linkedin.com/in/maríaeugeniacosta) 
+
 ---
+
 ESPAÑOL
+
 # Introducción a la programación con Python
 
 Estoy tomando el curso de *Juan Pablo De la Torre Valdez* *Udemy*: "Introducción a la programación con Python" y mientras veo los videos practico los ejercicios <br>
