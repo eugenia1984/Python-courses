@@ -26,6 +26,8 @@ I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introdu
 
 * 09-buenas-practicas.py : Explanation of how to comment code and spacing and order tips (good practices)
 
+* 10-arrays.py : example of: list, how to access an element, sort alphabetically, combination with string, modify values, add an element, delete an element (in various ways)
+
 ## Content 🚀
 _This Project only has one master branch, it was a small project so it did not need more branches._
 
@@ -73,6 +75,8 @@ Estoy tomando el curso de *Juan Pablo De la Torre Valdez* *Udemy*: "Introducció
 * 08-funciones-con-numeros.py: Ejemplo de función: suma, resta, multiplicación y división
 
 * 09-buenas-practicas.py : Explicación de cómo comentar código y tips de espaciado y orden (buenas prácticas)
+
+* 10-arrays.py :  ejemplo de: lista, cómo acceder a un elemento, ordenar alfabéticamente, combinar con una cadena, modificar valores, agregar un elemento, eliminar un elemento (de varias maneras)
 
 ## Contenido 🚀
 Este Proyecto solo tiene una sucursal maestra, era un proyecto pequeño por lo que no necesitaba más sucursales
