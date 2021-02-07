@@ -24,6 +24,8 @@ I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introdu
 
 * 08-funciones-con-numeros.py: Function example: addition, subtraction, multiplication and division
 
+* 09-buenas-practicas.py : Explanation of how to comment code and spacing and order tips (good practices)
+
 ## Content 🚀
 _This Project only has one master branch, it was a small project so it did not need more branches._
 
@@ -69,6 +71,8 @@ Estoy tomando el curso de *Juan Pablo De la Torre Valdez* *Udemy*: "Introducció
 * 07-numeros.py         Imprime un ejemplo de número entero y número flotante. Dejé los operadores anotados en los comentarios e imprimí una operación <br>
 
 * 08-funciones-con-numeros.py: Ejemplo de función: suma, resta, multiplicación y división
+
+* 09-buenas-practicas.py : Explicación de cómo comentar código y tips de espaciado y orden (buenas prácticas)
 
 ## Contenido 🚀
 Este Proyecto solo tiene una sucursal maestra, era un proyecto pequeño por lo que no necesitaba más sucursales
