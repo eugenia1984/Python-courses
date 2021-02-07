@@ -46,6 +46,8 @@ I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introdu
 
 * 19-while.py: some examples.
 
+* 20-proyecto-playlist.
+
 ## Content 🚀
 _This Project only has one master branch, it was a small project so it did not need more branches._
 
@@ -116,6 +118,8 @@ Reto 3: crea una función que tome la última actividad que hiciste <br>
 * 18-entrada-de-datos.py: algunas ejemplos y un desafío: realizar un exámen con 3 preguntas que tu desees, el usuario deberá responder "SI" o "NO" y al final otorgarle una calificación (la calificación se logra con una variable que inicia en 0 y por cada respuesta correcta incrementa en 1)
 
 * 19-while.py: exemplos.
+
+* 20-proyecto-playlist.
 
 ## Contenido 🚀
 Este Proyecto solo tiene una sucursal maestra, era un proyecto pequeño por lo que no necesitaba más sucursales
