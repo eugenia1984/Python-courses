@@ -40,6 +40,8 @@ I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introdu
 
 * 16-list-iteradores-if.py: one example.
 
+* 17-objects-and-operators-with-objects.py: some examples.
+
 ## Content 🚀
 _This Project only has one master branch, it was a small project so it did not need more branches._
 
@@ -102,6 +104,7 @@ Estoy tomando el curso de *Juan Pablo De la Torre Valdez* *Udemy*: "Introducció
 
 * 16-list-iteradores-if.py: un ejemplo.
 
+* 17-objects-and-operators-with-objects.py: algunos ejemplos.
 ## Contenido 🚀
 Este Proyecto solo tiene una sucursal maestra, era un proyecto pequeño por lo que no necesitaba más sucursales
 
