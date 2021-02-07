@@ -38,6 +38,8 @@ I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introdu
 
 * 15-operadores-and-or.py: some examples.
 
+* 16-list-iteradores-if.py: one example.
+
 ## Content 🚀
 _This Project only has one master branch, it was a small project so it did not need more branches._
 
@@ -97,6 +99,8 @@ Estoy tomando el curso de *Juan Pablo De la Torre Valdez* *Udemy*: "Introducció
 * 14-elifpy: algunos ejemplos.
 
 * 15-operadores-and-or.py: algunos ejemplos.
+
+* 16-list-iteradores-if.py: un ejemplo.
 
 ## Contenido 🚀
 Este Proyecto solo tiene una sucursal maestra, era un proyecto pequeño por lo que no necesitaba más sucursales
