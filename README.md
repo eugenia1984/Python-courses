@@ -7,14 +7,22 @@ I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introdu
 ## What I did 🚀
 
 * 01-holamundo.py     I print my firs ‘Hello World’ with Python <br>
+
 * 02-variable.py    Learning by doing:  <br>
 1: I created a variable with my favorite book and then printed it with print ()  <br>
 2: Create a variable with the last thing I ate and then print it with print ()  <br>
+
 * 03-tipodedatos.py   I printed different types of viewed data: string, integer, float, boolean <br>
+
 * 04-funciones.py  I defined a function and then I had it called. I made the example of a function with two parameters. I carried out the example of a function that returns a value.  <br>
+
 * 05-funcionesymetodos  Seeing the difference between function and method I made an example of each one    <br>
+
 * 06-funciones.py   I did three challenges: Challenge 1: create a function that prints a welcome message. Challenge 2: Create a function that takes a user name and displays it as a welcome message. # Challenge 3: create a function that takes the last activity you did <br>
+
 * 07-numeros.py  Print an example of Integer number and Float number. I left the operators annotated in comments, and printed an operation <br>
+
+* 08-funciones-con-numeros.py: Function example: addition, subtraction, multiplication and division
 
 ## Content 🚀
 _This Project only has one master branch, it was a small project so it did not need more branches._
@@ -45,14 +53,22 @@ Estoy tomando el curso de *Juan Pablo De la Torre Valdez* *Udemy*: "Introducció
 ## Lo que hice 🚀
 
 * 01-holamundo.py     Imprimo mi primer "Hola mundo" con Python <br>
+
 * 02-variable.py      Aprender haciendo: <br>
 1: Creé una variable con mi libro favorito y luego la imprimí con print () <br>
 2: Crea una variable con lo último que comí y luego imprímela con print () <br>
+
 * 03-tipodedatos.py      Imprimí diferentes tipos de datos visualizados: cadena, entero, flotante, booleano <br>
+
 * 04-funciones.py      Definí una función y luego la hice llamar. Hice el ejemplo de una función con dos parámetros. Realicé el ejemplo de una función que devuelve un valor. <br>
+
 * 05-funcionesymetodos.py     Al ver la diferencia entre función y método hice un ejemplo de cada uno <br>
+
 * 06-funciones.py       Hice tres retos: Reto 1: crear una función que imprima un mensaje de bienvenida. Reto 2: Cree una función que tome un nombre de usuario y lo muestre como un mensaje de bienvenida. Reto 3: crea una función que tome la última actividad que hiciste <br>
+
 * 07-numeros.py         Imprime un ejemplo de número entero y número flotante. Dejé los operadores anotados en los comentarios e imprimí una operación <br>
+
+* 08-funciones-con-numeros.py: Ejemplo de función: suma, resta, multiplicación y división
 
 ## Contenido 🚀
 Este Proyecto solo tiene una sucursal maestra, era un proyecto pequeño por lo que no necesitaba más sucursales
