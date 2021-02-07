@@ -44,6 +44,8 @@ I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introdu
 
 * 18-entrada-de-datos.py: some examples and a challenge: take an exam with 3 questions that you want, the user must answer "YES" or "NO" and at the end give it a grade (the grade is achieved with a variable that starts at 0 and increases by 1 for each correct answer)
 
+* 19-while.py: some examples.
+
 ## Content 🚀
 _This Project only has one master branch, it was a small project so it did not need more branches._
 
@@ -112,6 +114,8 @@ Reto 3: crea una función que tome la última actividad que hiciste <br>
 * 17-objects-and-operators-with-objects.py: algunos ejemplos.
 
 * 18-entrada-de-datos.py: algunas ejemplos y un desafío: realizar un exámen con 3 preguntas que tu desees, el usuario deberá responder "SI" o "NO" y al final otorgarle una calificación (la calificación se logra con una variable que inicia en 0 y por cada respuesta correcta incrementa en 1)
+
+* 19-while.py: exemplos.
 
 ## Contenido 🚀
 Este Proyecto solo tiene una sucursal maestra, era un proyecto pequeño por lo que no necesitaba más sucursales
