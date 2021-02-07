@@ -28,6 +28,8 @@ I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introdu
 
 * 10-arrays.py : example of: list, how to access an element, sort alphabetically, combination with string, modify values, add an element, delete an element (in various ways)
 
+* 11-iteradores.py: Iterators with an example of a string list and another with a range
+
 ## Content 🚀
 _This Project only has one master branch, it was a small project so it did not need more branches._
 
@@ -77,6 +79,8 @@ Estoy tomando el curso de *Juan Pablo De la Torre Valdez* *Udemy*: "Introducció
 * 09-buenas-practicas.py : Explicación de cómo comentar código y tips de espaciado y orden (buenas prácticas)
 
 * 10-arrays.py :  ejemplo de: lista, cómo acceder a un elemento, ordenar alfabéticamente, combinar con una cadena, modificar valores, agregar un elemento, eliminar un elemento (de varias maneras)
+
+* 11-iteradores.py: Iteradores con un ejemplo de lista de strings y otro con un rango
 
 ## Contenido 🚀
 Este Proyecto solo tiene una sucursal maestra, era un proyecto pequeño por lo que no necesitaba más sucursales
