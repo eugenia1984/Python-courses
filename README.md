@@ -32,7 +32,9 @@ I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introdu
 
 * 12-codigo-condicional.py: some examples.
 
-* 13-if-anidados.py: soma examples.
+* 13-if-anidados.py: some examples.
+
+* 14-elifpy: some examples.
 
 ## Content 🚀
 _This Project only has one master branch, it was a small project so it did not need more branches._
@@ -89,6 +91,8 @@ Estoy tomando el curso de *Juan Pablo De la Torre Valdez* *Udemy*: "Introducció
 * 12-codigo-condicional.py: algunos ejemplos.
 
 * 13-if-anidados.py: algunos ejemplos.
+
+* 14-elifpy: algunos ejemplos.
 
 ## Contenido 🚀
 Este Proyecto solo tiene una sucursal maestra, era un proyecto pequeño por lo que no necesitaba más sucursales
