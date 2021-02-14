@@ -135,4 +135,4 @@ Este Proyecto solo tiene una sucursal maestra, era un proyecto pequeño por lo q
 ---
 ## Notas
 Agradezco su interés en este proyecto <br/>
-⌨️ con ❤️ de [María Eugenia Costa] (https://github.com/eugenia1984) 😊 y sígueme en [LinkedIn] (http://www.linkedin.com/in/maríaeugeniacosta)
+⌨️ con ❤️ de [María Eugenia Costa](https://github.com/eugenia1984) 😊 y sígueme en [LinkedIn](http://www.linkedin.com/in/maríaeugeniacosta)
