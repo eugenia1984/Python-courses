@@ -48,6 +48,10 @@ I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introdu
 
 * 20-proyecto-playlist.
 
+* 21-POO.py
+
+* 22-clases.py
+
 ## Content 🚀
 _This Project only has one master branch, it was a small project so it did not need more branches._
 
@@ -120,6 +124,10 @@ Reto 3: crea una función que tome la última actividad que hiciste <br>
 * 19-while.py: exemplos.
 
 * 20-proyecto-playlist.
+
+* 21-POO.py
+
+* 22-clases.py
 
 ## Contenido 🚀
 Este Proyecto solo tiene una sucursal maestra, era un proyecto pequeño por lo que no necesitaba más sucursales
