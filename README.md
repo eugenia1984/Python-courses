@@ -52,7 +52,7 @@ I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introdu
 
 * 22-clases.py
 
-* 23-constructores.py
+* 23-constructores.py: with an example you see constructors and abstraction
 
 ## Content 🚀
 _This Project only has one master branch, it was a small project so it did not need more branches._
@@ -131,7 +131,7 @@ Reto 3: crea una función que tome la última actividad que hiciste <br>
 
 * 22-clases.py
 
-* 23-constructores.py
+* 23-constructores.py: con un ejemplo se ve constructores y abstracción
 
 ## Contenido 🚀
 Este Proyecto solo tiene una sucursal maestra, era un proyecto pequeño por lo que no necesitaba más sucursales
