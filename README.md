@@ -1,6 +1,33 @@
 ENGLISH
 
-# Introduction to programming with Python
+# Here you can see two Udemy's courses with Python
+
+## First :  Complete Python Course
+
+It's an Udemy course of **Alvaro Chirou** and **Brian De Vita**
+
+## Topics to see:
+
+  * Python from 0. Exercises to materialize what has been learned
+  * Script
+  * Django Framework
+  * Development of an App with Python
+  * Models and migrations
+  * Databases
+  * Graphic Interfaces
+  * Management of views with classes
+  * Manipulate Facebook API
+  * Basic boostrap
+  * Basic html
+  * Use Json
+  * Templates
+  * Models
+
+:computer: You can take a look of the theory and my exercises here -> [**curso_completo_de_python**](https://github.com/eugenia1984/Python-Udemys-courses/tree/main/curso_completo_de_python) 
+
+---
+
+# Second: Introduction to programming with Python
 
 I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introduction to Programming with Python’ and while ‘m watching the videos I practice the exercises <br>
 
@@ -78,7 +105,35 @@ I appreciate your interest in this Project <br/>
 
 ESPAÑOL
 
-# Introducción a la programación con Python
+
+# Van a poder ver dos cursos de Udemy de Python que realicé
+
+## Primero :  Curso completo de Python
+
+Es un curso de Udemy de  **Alvaro Chirou** y **Brian De Vita**
+
+## Temas a ver:
+
+  * Python desde 0. Ejercicios para materializar lo aprendido
+  * Script
+  * Framework Django
+  * Desarrollo de una App con Python
+  * Modelos y migraciones
+  * Bases de Datos
+  * Interfaces Graficas
+  * Manejo de vistas con clases
+  * Manipular API de Facebook
+  * Boostrap basico
+  * Html basico
+  * Usar Json
+  * Templates
+  * Modelos
+  
+:computer: Podés ver la teroía y mis ejercicios del curso en -> [**curso_completo_de_python**](https://github.com/eugenia1984/Python-Udemys-courses/tree/main/curso_completo_de_python)  
+
+---
+
+# Segundo: Introducción a la programación con Python
 
 Estoy tomando el curso de *Juan Pablo De la Torre Valdez* *Udemy*: "Introducción a la programación con Python" y mientras veo los videos practico los ejercicios <br>
 
