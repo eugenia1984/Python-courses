@@ -2,7 +2,7 @@ ENGLISH
 
 # Here you can see two Udemy's courses with Python
 
-## First :  Complete Python Course
+## 📚 First :  Complete Python Course
 
 It's an Udemy course of **Alvaro Chirou** and **Brian De Vita**
 
@@ -27,7 +27,7 @@ It's an Udemy course of **Alvaro Chirou** and **Brian De Vita**
 
 ---
 
-# Second: Introduction to programming with Python
+#  📚 Second: Introduction to programming with Python
 
 I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introduction to Programming with Python’ and while ‘m watching the videos I practice the exercises <br>
 
