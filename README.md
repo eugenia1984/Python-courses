@@ -225,6 +225,13 @@ Output: 9 (Los pasos a seguir son: 13, 40, 20, 10, 5, 16, 8, 4, 2, 1)
 ---
 ---
 
+# :star: Quinto: curso de Udemy de Numpi: Python desde cero, data analysis, matplot
+
+:computer: Podés ver la teoría y mis ejercicios del curso en -> [**05_python_desde_cero_data_analysis_matplot**](https://github.com/eugenia1984/Python-courses/tree/main/05_python_desde_cero_data_analysis_matplot)
+
+---
+---
+
 
 ## Contenido 🚀
 
