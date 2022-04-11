@@ -1,26 +1,39 @@
 ENGLISH
 
-# Here you can see two Udemy's courses with Python
+## Here you can see some courses with Python
 
-## 📚 First :  Complete Python Course
+# 📚 First :  Complete Python Course
 
 It's an Udemy course of **Alvaro Chirou** and **Brian De Vita**
 
 ## Topics to see:
 
   * Python from 0. Exercises to materialize what has been learned
+
   * Script
+
   * Django Framework
+
   * Development of an App with Python
+
   * Models and migrations
+
   * Databases
+
   * Graphic Interfaces
+
   * Management of views with classes
+
   * Manipulate Facebook API
+
   * Basic boostrap
+
   * Basic html
+
   * Use Json
+
   * Templates
+
   * Models
 
 :computer: You can take a look of the theory and my exercises here -> [**curso_completo_de_python**](https://github.com/eugenia1984/Python-Udemys-courses/tree/main/curso_completo_de_python) 
@@ -92,58 +105,78 @@ I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introdu
 
 This Project only has one master branch, it was a small project so it did not need more branches.
 
+---
 
 ## Builded with 🛠️
 
 **PYTHON**
 
 
+---
+
 ## Please: 🎁
 
 * Share this proyect with others 📢
+
 * Invite a beer 🍺 or a coffee ☕  to someone of the team. 
+
 * Thanks a lot 🤓.
 
 
 ---
 
 ## Notes
-I appreciate your interest in this Project <br/>
-⌨️ with ❤️ by [María Eugenia Costa](https://github.com/eugenia1984) 😊 and follow me at [LinkedIn]( http://www.linkedin.com/in/maríaeugeniacosta) 
+
+I appreciate your interest in this Project ⌨️ with ❤️ by [María Eugenia Costa](https://github.com/eugenia1984) 😊 and follow me at [LinkedIn]( http://www.linkedin.com/in/maríaeugeniacosta) 
 
 ---
 
 ESPAÑOL
 
 
-# Van a poder ver dos cursos de Udemy de Python que realicé
+## Van a poder ver los cursos de Python que realicé
 
-## Primero :  Curso completo de Python
+---
+
+# :star: Primer :  Curso completo de Python
 
 Es un curso de Udemy de  **Alvaro Chirou** y **Brian De Vita**
 
 ## Temas a ver:
 
   * Python desde 0. Ejercicios para materializar lo aprendido
+
   * Script
+
   * Framework Django
+
   * Desarrollo de una App con Python
+
   * Modelos y migraciones
+
   * Bases de Datos
+
   * Interfaces Graficas
+
   * Manejo de vistas con clases
+
   * Manipular API de Facebook
+
   * Boostrap basico
+
   * Html basico
+
   * Usar Json
+
   * Templates
+
   * Modelos
   
 :computer: Podés ver la teroía y mis ejercicios del curso en -> [**curso_completo_de_python**](https://github.com/eugenia1984/Python-Udemys-courses/tree/main/curso_completo_de_python)  
 
 ---
 
-# Segundo: Introducción a la programación con Python
+# :star: Segundo: Introducción a la programación con Python
 
 Estoy tomando el curso de *Juan Pablo De la Torre Valdez* *Udemy*: "Introducción a la programación con Python" y mientras veo los videos practico los ejercicios 
 
@@ -208,20 +241,30 @@ Reto 3: crea una función que tome la última actividad que hiciste
 
 * 24- [encapsulamiento.py](https://github.com/eugenia1984/Python-Udemys-courses/blob/main/24-encapsulamiento.py)
 
+---
 
 ## Contenido 🚀
 
 Este Proyecto solo tiene una rama
 
+---
+
 ## Construido con 🛠️
+
 **PYTON**
 
+---
+
 ## Por favor: 🎁
+
 * Comparte este proyecto con otros 📢
+
 * Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
+
 * Muchas gracias 🤓.
 
 ---
+
 ## Notas
-Agradezco su interés en este proyecto <br/>
-⌨️ con ❤️ de [María Eugenia Costa](https://github.com/eugenia1984) 😊 y sígueme en [LinkedIn](http://www.linkedin.com/in/maríaeugeniacosta)
+
+Agradezco su interés en este proyecto ⌨️ con ❤️ de [María Eugenia Costa](https://github.com/eugenia1984) 😊 y sígueme en [LinkedIn](http://www.linkedin.com/in/maríaeugeniacosta)
