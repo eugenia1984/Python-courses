@@ -2,9 +2,9 @@
 
 ## Qué hice?
 
-* 1-holamundo.py: imprimo el primer 'Hola mundo'
+- [**1-holamundo.py**](https://github.com/eugenia1984/Python-courses/blob/main/04_curso_para_principiante_fazt/1-holamundo.py): imprimo el primer 'Hola mundo'
 
-* 2-tipo-de-datos.py: veo los tipos de datos: string, number, boolean, lista, tupla, diccionario, none.
+- [**2-tipo-de-datos.py**](https://github.com/eugenia1984/Python-courses/blob/main/04_curso_para_principiante_fazt/2-tipo-de-datos.py): veo los tipos de datos: string, number, boolean, lista, tupla, diccionario, none.
 
 * 3-variable.py: reglas y convenciones, constantes, lenguaje dinámico -reasignación de valor a una misma variable-
 
