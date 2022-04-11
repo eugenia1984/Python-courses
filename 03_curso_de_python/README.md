@@ -26,11 +26,11 @@ Y 2 MINI - DESAFIOS:
 
 **MINI-DESAFIO IF Y WHILE** : Implementar un programa que muestre la siguiente secuencia: 1, 2, 3, 4, 5, 4, 3, 2, 1, 0. Para un desafío mayor: Utilizar un solo while, un solo if y un solo else.
 
-* modulo1-6-flujodeprograma-for.py: Ejemplos de estructura FOR. 
+* [**modulo1-6-flujodeprograma-for.py*](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/modulo1-6-flujodeprograma-for.py): Ejemplos de estructura FOR. 
 
 **MINI-DEAFIO FOR** : Mostrar la siguiente secuencia de datos utilizando la instrucción for y la instrucción if: 0, 1, 4, 9, 16, 25, 6, 7, 8, 9. 
 
-* modulo1-7-funciones.py : Ejemplo de funciones y el **MINI-DESAFIO FUNCIONES** : Escribir una función que chequee los siguientes usuarios y contraseñas: 
+* [**modulo1-7-funciones.py**](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/modulo1-7-funciones.py): Ejemplo de funciones y el **MINI-DESAFIO FUNCIONES** : Escribir una función que chequee los siguientes usuarios y contraseñas: 
 
 Usuario: Juan - Contraseña: 12345_ 
 
