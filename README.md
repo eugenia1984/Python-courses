@@ -36,13 +36,14 @@ It's an Udemy course of **Alvaro Chirou** and **Brian De Vita**
 
   * Models
 
-:computer: You can take a look of the theory and my exercises here -> [**curso_completo_de_python**](https://github.com/eugenia1984/Python-Udemys-courses/tree/main/curso_completo_de_python) 
+:computer: You can take a look of the theory and my exercises here -> [**01_curso_completo_de_python**](https://github.com/eugenia1984/Python-courses/tree/main/01_curso_completo_de_python) 
 
 ---
 
 #  📚 Second: Introduction to programming with Python
 
 I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introduction to Programming with Python’ and while ‘m watching the videos I practice the exercises 
+
 
 
 ## What I did 🚀
@@ -99,6 +100,10 @@ I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introdu
 * 23- [constructores.py](https://github.com/eugenia1984/Python-Udemys-courses/blob/main/23-constructores.py): with an example you see constructors and abstraction
 
 * 24- [encapsulamiento.py](https://github.com/eugenia1984/Python-Udemys-courses/blob/main/24-encapsulamiento.py)
+
+:computer: You can take a look of the theory and my exercises here -> [**02_introduccion_a_la_programacion_con_python**](https://github.com/eugenia1984/Python-courses/tree/main/02_introduccion_a_la_programacion_con_python)
+
+---
 
 
 ## Content 🚀
@@ -172,7 +177,7 @@ Es un curso de Udemy de  **Alvaro Chirou** y **Brian De Vita**
 
   * Modelos
   
-:computer: Podés ver la teroía y mis ejercicios del curso en -> [**curso_completo_de_python**](https://github.com/eugenia1984/Python-Udemys-courses/tree/main/curso_completo_de_python)  
+:computer: Podés ver la teroía y mis ejercicios del curso en -> [**01_curso_completo_de_python**](https://github.com/eugenia1984/Python-courses/tree/main/01_curso_completo_de_python)  
 
 ---
 
@@ -240,6 +245,9 @@ Reto 3: crea una función que tome la última actividad que hiciste
 * 23- [constructores.py](https://github.com/eugenia1984/Python-Udemys-courses/blob/main/23-constructores.py): con un ejemplo se ve constructores y abstracción
 
 * 24- [encapsulamiento.py](https://github.com/eugenia1984/Python-Udemys-courses/blob/main/24-encapsulamiento.py)
+
+
+:computer: Podés ver la teroía y mis ejercicios del curso en -> [**02_introduccion_a_la_programacion_con_python**](https://github.com/eugenia1984/Python-courses/tree/main/02_introduccion_a_la_programacion_con_python)
 
 ---
 
