@@ -14,7 +14,7 @@ Y un **MINI - DESAFIO** :  Diseñar un programa en el cual el usuario ingrese tr
 
 El último ejemplo está agrupado con ( condicion1 ) and/or ( condicion2 ). 
 
-* modulo1-4-flujodeprograma-if.py: 2 ejemplos con IF / ELSE. 
+* [**modulo1-4-flujodeprograma-if.py**](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/modulo1-4-flujodeprograma-if.py): 2 ejemplos con IF / ELSE. 
 
 Y 2 MINI - DESAFIOS:
 
@@ -22,11 +22,12 @@ Y 2 MINI - DESAFIOS:
 
 **MINI-DESAFIO IF - 2** : Realizar un programa que convierta una nota porcentual del 0 al 100 a una letra entre A y F de acuerdo a la siguiente conversión: A: 90-100 , B: 80-89 , C: 70-79, D: 60-69, F: 0-59. 
 
-* modulo1-5-flujosdeprograma-while.py: ejemplos de estructura while. 
+* [**modulo1-5-flujosdeprograma-while.py**](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/modulo1-5-flujosdeprograma-while.py): ejemplos de estructura while. 
 
 **MINI-DESAFIO IF Y WHILE** : Implementar un programa que muestre la siguiente secuencia: 1, 2, 3, 4, 5, 4, 3, 2, 1, 0. Para un desafío mayor: Utilizar un solo while, un solo if y un solo else.
 
-* modulo1-6-flujodeprograma-for.py: Ejemplos de estructura FOR. <br>
+* modulo1-6-flujodeprograma-for.py: Ejemplos de estructura FOR. 
+
 **MINI-DEAFIO FOR** : Mostrar la siguiente secuencia de datos utilizando la instrucción for y la instrucción if: 0, 1, 4, 9, 16, 25, 6, 7, 8, 9. 
 
 * modulo1-7-funciones.py : Ejemplo de funciones y el **MINI-DESAFIO FUNCIONES** : Escribir una función que chequee los siguientes usuarios y contraseñas: 
