@@ -132,7 +132,7 @@ Reto 3: crea una función que tome la última actividad que hiciste
 
 Y un **MINI - DESAFIO** :  Diseñar un programa en el cual el usuario ingrese tres números, uno a la vez, y se muestre a la salida el promedio de los tres números.
 
-* modulo1-3-operacionesbasicasdeprogramacion.py: ejemplo de comparaciones  entre número con operaciones básicas  para obtener True or False (fui comentando mi razonamiento). 
+* [**modulo1-3-operacionesbasicasdeprogramacion.py**](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/modulo1-3-operacionesdecomparacion.py): ejemplo de comparaciones  entre número con operaciones básicas  para obtener True or False (fui comentando mi razonamiento). 
 
 El último ejemplo está agrupado con ( condicion1 ) and/or ( condicion2 ). 
 
