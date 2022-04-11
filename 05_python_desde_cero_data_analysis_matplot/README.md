@@ -72,3 +72,17 @@ En la segunda sección del curso aprenderemos:
 - Aprenderás como crear una Base de Datos con Python para leer y escribir datos en ella.
 
 ---
+
+## ¿ Qué es Python ?
+
+- Popular lenguaje de programación **open source**
+
+- Puthon es **multi-paradigma** (programacion funcinal, imperativa, orientada a objetos)
+
+- Lenguaje con **tipado dinamico** (no se debe definir un tipo de dato para la varaible al declararla, sino que se le asigna a partir del datoq eu alamacena, y puede ir modificando el tipo de dato almacenado)
+
+- Enfocado a la **productividad**, a la calidad y claridad de código
+
+- **Lenguaje de alto nivel** sencillo de programar.
+
+---
