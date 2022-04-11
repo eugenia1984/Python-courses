@@ -1,7 +1,7 @@
 ESPAÑOL
 
 
-## Van a poder ver los cursos de Python que realicé
+Van a poder ver los cursos de Python que realicé
 
 ---
 ---
@@ -126,15 +126,18 @@ Reto 3: crea una función que tome la última actividad que hiciste
 
 ## Lo que hice 🚀
 
-* modulo1-1-variables.py : con el output print() imprimo distintos tipos de variables y hago una concatenación de strings. 
+* [**modulo1-1-variables.py**](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/modulo1-1-variables.py) : con el output print() imprimo distintos tipos de variables y hago una concatenación de strings. 
 
-* modulo1-2-operacionesbasicas-modificacion.py: dos mini ejerccios con operaciones de multiplicación (*), suma (+), división (/), potencia (**). 
+* [**modulo1-2-operacionesbasicas-modificacion.py**](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/modulo1-2-operacionesbasicas-modificacion.py): dos mini ejerccios con operaciones de multiplicación (*), suma (+), división (/), potencia (**). 
 
 Y un **MINI - DESAFIO** :  Diseñar un programa en el cual el usuario ingrese tres números, uno a la vez, y se muestre a la salida el promedio de los tres números.
 
 * modulo1-3-operacionesbasicasdeprogramacion.py: ejemplo de comparaciones  entre número con operaciones básicas  para obtener True or False (fui comentando mi razonamiento). 
+
 El último ejemplo está agrupado con ( condicion1 ) and/or ( condicion2 ). 
-* modulo1-4-flujodeprograma-if.py: 2 ejemplos con IF / ELSE. <br>
+
+* modulo1-4-flujodeprograma-if.py: 2 ejemplos con IF / ELSE. 
+
 Y 2 MINI - DESAFIOS:
 
 **MINI DESAFIO IF - 1** : Realizar un programa que revise si una nota está aprobada (es decir si es mayor o igual a 4) utilizando un if/else. La nota será ingresada por el usuario usando input(). 
@@ -177,7 +180,12 @@ Input: 13
 Output: 9 (Los pasos a seguir son: 13, 40, 20, 10, 5, 16, 8, 4, 2, 1)  
 ```
 
+:computer: Podés ver la teoría y mis ejercicios del curso en -> [**03_curso_de_python**](https://github.com/eugenia1984/Python-courses/tree/main/03_curso_de_python)
+
+
 ---
+---
+
 ## Contenido 🚀
 
 Este Proyecto solo tiene una rama

@@ -3,8 +3,8 @@
 print('Hello world')
  # ejemplo de integer 
 print(1984)
-#ejemplo de booblean (True)
-print(2>1) 
+#ejemplo de boolean (True)
+print( 2 > 1) 
 #ejemplo de float 
 print(2.58) 
 
