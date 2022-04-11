@@ -160,7 +160,7 @@ Usuario: Pablo - Contraseña: xDcFvGbHn
 
 La función debe recibir como parámetros el usuario y la contraseña, y debe devolver el valor True o False. 
 
-* modulo1-8-funcionesrepercusion.py : un ejemplo y un **EJERCICIO**: 
+* [**modulo1-8-funcionesrepercusion.py**](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/*modulo1-8-funcionesrepercusion.py) : un ejemplo y un **EJERCICIO**: 
 
 La conjetura del Dr. Lothar 
 
