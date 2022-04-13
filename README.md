@@ -119,7 +119,7 @@ Reto 3: crea una función que tome la última actividad que hiciste
 ---
 ---
 
-# :star: Tercero: Curso de Python
+# :star: Tercer: Curso de Python
 
  Teoría en comentarios con ejercicios de Python que estoy haciendo en un curso
 
