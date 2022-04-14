@@ -77,12 +77,22 @@ En la segunda sección del curso aprenderemos:
 
 - Popular lenguaje de programación **open source**
 
-- Puthon es **multi-paradigma** (programacion funcinal, imperativa, orientada a objetos)
+- Python es **multi-paradigma** (programacion funcinal, imperativa, orientada a objetos)
 
-- Lenguaje con **tipado dinamico** (no se debe definir un tipo de dato para la varaible al declararla, sino que se le asigna a partir del datoq eu alamacena, y puede ir modificando el tipo de dato almacenado)
+- Lenguaje con **tipado dinamico** (no se debe definir un tipo de dato para la variable al declararla, sino que se le asigna a partir del dato que alamacena, y puede ir modificando el tipo de dato almacenado). Cada variable hace referencia a un dato guardado en memoria.
 
-- Enfocado a la **productividad**, a la calidad y claridad de código
+- Enfocado a la **productividad**, a la calidad y claridad de código. Es un lenguaje accesible a las personas, es entendible, leguible, modificado.
 
-- **Lenguaje de alto nivel** sencillo de programar.
+- **Lenguaje de alto nivel** sencillo de programar, trabaja con un interprete, se trabaja fácilmente, no hay que compilar.
+
+---
+
+## Instalar Anaconda
+
+Desde la web [anaconda.com](http://www.anaconda.com) la bajamos e instalamos, seleccionamos la segunda opción al final de todo y listo.
+
+---
+
+## Jupiter
 
 ---
