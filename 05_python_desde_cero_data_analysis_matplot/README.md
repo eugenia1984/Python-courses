@@ -322,3 +322,65 @@ print(str(2)) # castea a string : 2
 print(str(3.1415)) # castea a String : 3.1415
 print(str(None)) #castea a String : None
 ```
+
+---
+
+## :star: Operadores aritmeticos y de asignacion
+
+**+ es la suma**
+
+```Python
+print(8 + 30.5) # + hace la suma y como tengo int y float el resultado es float
+print('Hola'+ ', como estas?') # el + en String concatena
+```
+
+**- es la resta**
+
+```Python
+print(49-30) # 19
+```
+
+**la multiplicacion es el estarisco**
+
+```Python
+print( 2*3.5) # 7
+print("Turututu"*2) # el multiplicar por dos es lo mismo que sumar la cadena dos veces : TurututuTurututu
+```
+
+**/ es la division**
+```Python
+print( 10/4) # va a dar un float
+print(10//2) # me va a mostrar el int de la respuesta
+```
+
+**% es el modulo**
+```Python
+print(10%2) # el modulo, me muestra el resto de la division
+```
+**doble asterisco es la exponenciacion**
+```Python
+print(2**3) # dos al cubo
+```
+
+## Operadores de asignacion
+
+``` -= , += , *=, /= , //=, **=```
+
+Se va a realizar la resta, suma, multiplicacion, division, potenciacion, etc y luego se asigna.
+
+```Python
+edad = 10
+print(edad) # 10
+edad -= 3
+print(edad) #7
+edad += 5
+print(edad) # 12
+edad /=2
+print(edad) # 6
+```
+
+---
+
+## :star: Operadores logicos
+
+---
