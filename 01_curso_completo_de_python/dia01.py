@@ -27,6 +27,7 @@ print(aprendiendo)
 # 3-Escriba un programa que le pregunte al usuario su nombre para luego saludarlo por consola con su nombre
 nombre_ingresado = input("Ingresa tu nombre: ")
 print("Hola " + nombre_ingresado)
+
 # 4- Defina tres variables: una que reciba un valor flotante, un valor entero y un String
 calor_flotante = 15.67
 valor_entero = 10

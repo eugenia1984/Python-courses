@@ -116,23 +116,103 @@ print(saludo)
 - 2- Escribir un programa que guarde en variable la cadena Estoy aprendiendo Python! Y que luego muestre en pantalla el valor de la variable
 
 ```Python
-
+aprendiendo = "Estoy aprendiendo Python!"
+print(aprendiendo)
 ```
 
 - 3- Escriba un programa que le pregunte al usuario su nombre para luego saludarlo por consola con su nombre
 
 ```Python
+nombre_ingresado = input("Ingresa tu nombre: ")
+print("Hola " + nombre_ingresado)
 ```
 
 - 4- Defina tres variables: una que reciba un valor flotante, un valor entero y un String
 
 ```Python
+calor_flotante = 15.67
+valor_entero = 10
+valor_cadena = "Estamos en feriado"
 ```
 
 ---
 ---
 
 # :star: Dia 2
+
+Temas
+
+- El tipo logico
+
+- Operadores Relacionales
+
+- Operadores logicos
+
+- Operadores de asignacion
+
+---
+
+## El tipo logico
+
+**True** -> es verdad / 1
+
+**False** -> es falso / 0
+
+---
+
+## Operadores
+
+| aritmeticos | relacionales | logicos | asignacion |
+| ----------- | ------------ | ------- | ---------- |
+| SUMA + | IGUAL QUE == | AND | ASIGNACION = |
+| RESTA - | MAYOR QUE > | OR | DECREMENTO -= o INCREMENTO +=|
+| MULTIPLICAR * | MAYOR O IGUAL >= | NOT | /= |
+| MODULO % | DIFERENTE QUE != |  **= |
+| DIVISION / | MENOR QUE < | | %= |
+| POTENCIA ** | MENOR O IGUAL <= | | *= |
+
+---
+
+## Operadores relacionales
+
+### Operador de igualdad : ==
+
+```Python
+c = "Raul" == "raul"
+print(c) # False por ser case sensitive
+```
+
+### Operador Diferente que : !=
+```Python
+a = 10 != 20
+print(a) # True porque no son iguales
+```
+
+### Operador menor que: <
+```Python
+caso1 = 5 < 4
+print(caso1) # falso proque 5 no es menor que 4
+```
+
+### Operador mayor que : >
+```Python
+caso2 = 5 > 3
+print(caso2) # True porque 5 es mayor a 3
+```
+
+### Operador menor o igual que: <=
+```Python
+caso3 = 20 <= 10
+print(caso3) # False porque 20 no es menor ni igual a 10
+```
+
+
+### Operador mayor o igual que: >=
+```Python
+caso4 = 20 >=10
+print(caso4) # True porque 20 es mayor a 10
+```
+
 
 ---
 ---
