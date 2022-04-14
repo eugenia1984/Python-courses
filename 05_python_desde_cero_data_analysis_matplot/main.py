@@ -75,4 +75,15 @@ edad += 5
 print(edad) # 12
 edad /=2
 print(edad) # 6
-
+print("-Se cumple que 2 > 3 \n", 2>3)
+print("-Se cumple que 2 < 3 \n", 2<3)
+print("-Se cumple que 2 != 3 \n", 2!=3)
+print("c" > "d")
+print("casa" > "cabra")
+# Lectura por teclado
+valor= input("Introduce un numero: ")
+print(valor)
+valor_numero_ingresado_flotante = float(input("Introduce un numero: ")) # asi lo casteo a flotante
+edad_ingresada= int(input("Ingresa tu edad:"))  # para castearlo a entero
+# Formateo de texto
+print('{} es el primer valor y {} es el segundo valor'.format(1,2))

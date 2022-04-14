@@ -72,6 +72,9 @@ En la segunda sección del curso aprenderemos:
 - Aprenderás como crear una Base de Datos con Python para leer y escribir datos en ella.
 
 ---
+---
+
+# : book: Introduccion
 
 ## ¿ Qué es Python ?
 
@@ -104,12 +107,15 @@ Y se nor abre en un browser: ```localhost:8888/tree```
 Estan los botones
 
 
-**Neww** -> **python 3** para abrir un nuevo archivo
+**New** -> **python 3** para abrir un nuevo archivo
 
 **quit** para salir
 
 
 ---
+---
+
+# :book: Tipo de Objetos
 
 ## Variables
 
@@ -261,7 +267,7 @@ tercer linea""")
 
 Es le dato lógico, la minima unidad racional, su valor es: **verdadero** , **falso**.
 
-Para ello utilizamos los operadores logicos : ``` < , > , <= , >= , ==```
+Para ello utilizamos los operadores logicos : ``` < , > , <= , >= , ==, !=```
 
 ```Python
 print(1+1 == 2) # True
@@ -383,4 +389,73 @@ print(edad) # 6
 
 ## :star: Operadores logicos
 
+Estan relacionados con los boolean : True o False
+
+```Python
+print("-Se cumple que 2 > 3 \n", 2>3)
+print("-Se cumple que 2 < 3 \n", 2<3)
+print("-Se cumple que 2 != 3 \n", 2!=3)
+```
+
+Los operadores basicos de comparacion (<,>, <=, >=, =0, !=) tambien aplican a las cadenas de caracteres.
+
+Para compararlas siguen el estandard ASCII
+```
+!"#$%&'()*+,-./
+0123456789:;<=>?
+@ABCDEFGHIJKLMNO
+PQRSTUVWKYZ[\]_
+`abcdefghijklmno
+pqrstuvwxyz{|}
+```
+
+simbolos -> numeros -> comparacion -> simbolos -> letras
+
+```Python
+print("c" > "d") #False
+```
+
+Va a ir evaluando letra por letra, para el caso de que compara String
+
+```Python
+print("casa" > "cabra")
+```
+
+**AND**
+
+Ambas deben ser verdaderas para que sea True, sino es False.
+
+
+**OR**
+
+Con que al mismo una sea verdadera, tendré True.
+
+**NOT**
+
+Niega el valor... 
+
+...si tengo verdadero negado -> False
+
+... si tengo falso negado -> True
+
+---
+
+## Lectura por teclado
+
+Se realiza mediante la funcion **input()**
+
+```Python
+valor= input("Introduce un numero: ")
+print(valor)
+valor_numero_ingresado_flotante = float(input("Introduce un numero: ")) # asi lo casteo a flotante
+edad_ingresada= int(input("Ingresa tu edad:"))  # para castearlo a entero
+```
+
+---
+
+## Formateo
+
+Puedo dejar espacios en cadenas de texto y luego defino que valor paso.
+
+---
 ---
