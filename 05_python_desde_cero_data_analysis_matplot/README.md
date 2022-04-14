@@ -231,3 +231,42 @@ Para saber el tipo de dato
 y = 3.5
 type(y) #float
 ```
+
+## :star: String
+
+Son secuencias de caracteres dentro de comillas, pueden ser comillas simples o dobles.
+
+Con **print()** mostramos por pantalla el texto, y podemos editarlo con tabulaciones y saltos de linea.
+
+Los String pueden ser almacenados en variables.
+
+```Python
+nombre = " Martina"
+print(nombre) # Martina
+print(type(nombre))  # <class 'str'>
+```
+
+```Python
+print("una cadena  \tseparada por una tabulacion") # Para tabular, dejar un espacio
+print("una linea  \notra linea") # para un salto de linea
+print(r"hola/mundo") # para mostrarlo en crudo
+print("""Primer linea
+segunda linea
+tercer linea""")
+```
+
+---
+
+## :star: Boolean
+
+Es le dato lógico, la minima unidad racional, su valor es: **verdadero** , **falso**.
+
+Para ello utilizamos los operadores logicos : ``` < , > , <= , >= , ==```
+
+```Python
+print(1+1 == 2) # True
+print( 3 < 1) #False
+```
+
+
+---

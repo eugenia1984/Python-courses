@@ -17,4 +17,17 @@ parte_real = c.real
 parte_imaginaria = c.imag
 print(parte_real)
 print(parte_imaginaria)
+# STRING
+nombre = " Martina"
+print(nombre) # Martina
+print(type(nombre))
+print("una cadena  \tseparada por una tabulacion") # Para tabular, dejar un espacio
+print("una linea  \notra linea") # para un salto de linea
+print(r"hola/mundo") # para mostrarlo en crudo
+print(""" Primer linea
+segunda linea
+tercer linea""")
+# BOOLEAN
+print(1+1 == 2) #True
+print( 3 < 1) # False
 
