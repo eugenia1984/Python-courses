@@ -268,5 +268,57 @@ print(1+1 == 2) # True
 print( 3 < 1) #False
 ```
 
+A una variable tambien le podemos asignar el valor booleanos:
+```Python
+verdadero = True
+falso = False
+```
+
+-> Los valores logicos siguen la logica proposicional : **and**, **or**
+
+Para el caso de AND ambas deben ser True para tener True.
+
+Para el caso de OR con que una sea True ya obtenemos True.
+
+```Python
+resultado1= ( 2 == 1+1) and ( 2 < 8) # True and True
+print(resultado1) #True
+resultado2 = ( 2 == 1+1) and ( 2 == 8) # True and False
+print(resultado2) # False
+resultado3 = ( 2 < 1+1) and ( 2 == 8) # False and False
+print(resultado3) # False
+print(type(resultado1)) #bool
+```
 
 ---
+
+## :star:  Comprobacion y converison de typos
+
+Comprobacion de tipo de datos:
+
+```Python
+print(-1, type(-1)) # -1, <class 'int'>
+print(3.1415, type(3.1415)) # 1.1415, <class 'float'>
+print("hola", type("hola")) # hola , <'str'>
+print(True, type(True)) # True, 'bool'
+print(None, type(None)) #None <class 'NoneType'>
+```
+
+Conversion de Tipos -> CASTEO DE NUMBER A STRING
+```Python
+num=2
+print(type(num)) #  <class 'int'>
+num = str(num)
+print(type(num)) # <class 'str'>
+```
+
+También se puede convertir sin asignar valor a una variable
+
+```Python
+print(int(2.1)) # castea a int (entero) : 2
+print(int("2")) # castea a int(entero) : 2
+print(int(True), int(False)) # castea a int (entero): 1 0
+print(str(2)) # castea a string : 2
+print(str(3.1415)) # castea a String : 3.1415
+print(str(None)) #castea a String : None
+```
