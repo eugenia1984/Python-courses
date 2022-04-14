@@ -20,7 +20,7 @@ Temas a ver:
 ---
 ---
 
- ## :star: Días 1
+ # :star: Día 1
 
 Temas:
 
@@ -96,4 +96,43 @@ entrada3 = float(input ("Introduce un numero decimal: ")) # va a entrar como Str
 
 ## Visual Studio Code
 
-Desde [http://www.code.visuastudio.com](http://www.code.visuastudio.com) descargo Visual Studio Code y le agrego la extension de Python de Microsoft
+Desde [http://www.code.visuastudio.com](http://www.code.visuastudio.com) descargo Visual Studio Code y le agrego la extension de Python de Microsoft.
+
+Dejar configurado que se vaya autoguardando lo que escribimos.
+
+Todos los archivos que se creeen deben tener la extension **.py**
+
+---
+
+## Tarea
+
+- 1- Escribir un programa que muestre por pantalla la cadena Hola mundo!
+
+```Python
+saludo = "Hola mundo!"
+print(saludo)
+```
+
+- 2- Escribir un programa que guarde en variable la cadena Estoy aprendiendo Python! Y que luego muestre en pantalla el valor de la variable
+
+```Python
+
+```
+
+- 3- Escriba un programa que le pregunte al usuario su nombre para luego saludarlo por consola con su nombre
+
+```Python
+```
+
+- 4- Defina tres variables: una que reciba un valor flotante, un valor entero y un String
+
+```Python
+```
+
+---
+---
+
+# :star: Dia 2
+
+---
+---
