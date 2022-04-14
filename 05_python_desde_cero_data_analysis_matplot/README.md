@@ -95,4 +95,87 @@ Desde la web [anaconda.com](http://www.anaconda.com) la bajamos e instalamos, se
 
 ## Jupiter
 
+Es la interrfaz donde vamos a escribir el codigo.
+
+Desde el buscador de inicio, buscamos *jupyter* -> *jupyter anaconda notebook*
+
+Y se nor abre en un browser: ```localhost:8888/tree```
+
+Estan los botones
+
+
+**Neww** -> **python 3** para abrir un nuevo archivo
+
+**quit** para salir
+
+
+---
+
+## Variables
+
+
+Como Python es un lenguaje de tipado dinamico, no necesita que se declaren los tipos de valores que almacenara una variable.
+
+La variable es un espacio de memoria donde guardo una variable y le asigno un valor.
+
+### ¿ Como las nombro ?
+
+Con letras, puede contener caracteres alfanumericos
+
+No admite espacios en blancos, utilizo camelCase o snake_case
+
+Hay palabras reservadas que no se pueden usar, como: Python 3.x, False, continue, in, not, return, yield
+
+El nombre de la variable es case sensitive (Python no es lo mismo que python).
+
+### ¿ Cómo asigno valores ?
+
+Con el **=**, por ejemplo:
+
+**nombre_de_la_variable** **=** **valor_a_designar**
+```Python
+x=30
+print(x)  # 30
+nombre = "Maria Eugenia"
+print(nombre)  # Maria Eugenia
+```
+
+En Python los **tipos primitivos** son :
+
+- Numeros
+
+- Cadenas de caracteres (String) -> siempre van entre comillas
+
+- Booleans
+
+- Tuplas
+
+- listas
+
+- diccionarios
+
+
+---
+
+## Metodos
+
+Son funciones de clase, esto quiere decir que cada tipo de variable incluye unas funciones asociadas a ella desde su definición.
+
+```Python
+x.__add__(10)  # el metodo add , sumara lo que paso por parametro (10)
+print(x) #40
+```
+
+Diciconario, coleccion de datos, con **key**:**value**.
+```Python
+diccionario = ['uno': x, 'dos':x.__add__(10)]
+diccionario
+# ['uno': 30, 'dos':40]
+print(f'{nombre.title()} cuesta {diccionario['uno']} pesos y el otro libro {diccinario{'dos'}} pesos')
+```
+
+Utilizando **.dir()** se puede buscar el método disponible, entre () ponemos la variable de la cual queremos sabe rle metodo, por ejemplo ```Python dir(x)```
+
+También está la función **help()** que nos muestra la ayuda, por ejemplo ```Python help(x)```
+
 ---
