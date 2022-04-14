@@ -179,3 +179,55 @@ Utilizando **.dir()** se puede buscar el método disponible, entre () ponemos la
 También está la función **help()** que nos muestra la ayuda, por ejemplo ```Python help(x)```
 
 ---
+
+## :star: Number
+
+Podemso asignarle valores a las varaibles.
+
+Python tiene 4 tipos de varaibles para alamcenarlos
+
+### INT (integer / entero)
+```Python
+x = 12+3
+print(x) # 15
+x = x.__add(5)
+print(x) # 20
+x = x -2
+print(x) # 18
+```
+
+Siempre que almacenemos un numero entero será **int**
+
+Se puede utilizar el método **.__add__(valor_a_sumar)**
+### FLOAT (flotante / decimal)
+
+Es un flotante, un decimal, el decimal en Python se marca con el **.**, no usamos la coma para separar el entero del decimal.
+
+```Python
+y = 4.5
+print(y) # 4.5
+```
+
+### COMPLEX
+
+
+Los números imaginarios
+
+```Python
+c = 1+2j
+type(c)
+parte_real = c.real
+parte_imaginaria = c.imag
+print(parte_real)
+print(parte_imaginaria)
+```
+
+
+### Función type
+
+Para saber el tipo de dato
+
+```Python
+y = 3.5
+type(y) #float
+```

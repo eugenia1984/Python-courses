@@ -6,4 +6,15 @@ x = x.__add__(10) # el metodo add , sumara lo que paso por parametro (10) y al t
 print(x) #40
 diccionario = {'uno': x, 'dos':x.__add__(10)}  # ['uno': 30, 'dos':40]
 print(f"{nombre.title()} cuesta {diccionario['uno']} pesos y el otro libro {diccionario['dos']} pesos")
+# Tipos de datos numericos
+numero_entero = 2
+print(type(numero_entero))
+numero_decimal = 3.4
+print(type(numero_decimal))
+c = 1+2j # numero imaginario
+print(type(c))
+parte_real = c.real
+parte_imaginaria = c.imag
+print(parte_real)
+print(parte_imaginaria)
 
