@@ -36,13 +36,13 @@ Temas:
 
 ---
 
-## Instalacion de Python
+## :book: Instalacion de Python
 
 Desde [http:/www.python.org](http:/www.python.org) se descarga e instala Python.
 
 ---
 
-## Numeros y variables
+## :book: Numeros y variables
 
 **Numeros Enteros**  -> **int**
 
@@ -66,7 +66,7 @@ potenciacion = i **3
 
 ---
 
-## Textos
+## :book: Textos (String)
 
 ```Python
 print("Estoy 'aprendiendo' Python")
@@ -77,7 +77,7 @@ print("Buenas "+nombre) # para concatenar un String con una variable -> +
 
 ---
 
-## Input
+## :book: Input
 
 ```Python
 entrada1 = input ("Introduce un numero : ") # va a entrar como String
@@ -94,7 +94,7 @@ entrada3 = float(input ("Introduce un numero decimal: ")) # va a entrar como Str
 
 ---
 
-## Visual Studio Code
+## :book: Visual Studio Code
 
 Desde [http://www.code.visuastudio.com](http://www.code.visuastudio.com) descargo Visual Studio Code y le agrego la extension de Python de Microsoft.
 
@@ -173,7 +173,7 @@ Temas
 
 ---
 
-## Operadores relacionales
+## :book: Operadores relacionales
 
 ### Operador de igualdad : ==
 
@@ -215,7 +215,7 @@ print(caso4) # True porque 20 es mayor a 10
 
 --
 
-## Operador logico
+## :book: Operador logico
 
 ### NOT
 
@@ -248,7 +248,7 @@ print(len(palabra)<8 or palabra[0] == "f") # True porque la longitud de palabra 
 
 ---
 
-## Operadores de asignacion
+## :book: Operadores de asignacion
 
 ### Suma
 
@@ -348,7 +348,7 @@ Para alterar el flujo natural del programa tenemos las **condicionales**.
 
 - Es importantísima la **identación** en Python, sino no funciona el loop. También es muy importante poner los **dos puntos**.
 
-### IF
+### :book: IF
 
 ```Python
 edad = 20
@@ -358,7 +358,7 @@ if edad >=18:
 
 Solo si la condición dentro del **if** es True ( se cumple), se entra dentro del bucle, si no cumple (si es False) entonces nunca entrará.
 
-### IF ELSE
+### :book: IF ELSE
 
 Si no cumple con la condición, va a entrar al else
 
@@ -370,7 +370,7 @@ else:
   print("Eres menor de edad")
 ```
 
-### IF ELIF ELSE
+### :book: IF ELIF ELSE
 
 Para evaluar más de dos condiciones.
 
@@ -390,7 +390,7 @@ else:
 
 - Nos permiten repetir una porción de código tantas veces como queramos o necesitemos.
 
-### BUCLE WHILE
+### :book: BUCLE WHILE
 
 Si **edad2** no estuviera cambiando en cada iteracion -> estaría en un bucle infinito
 
@@ -416,7 +416,7 @@ while lenguajeSeleccionado < len(lenguajes):
   lenguajeSeleccionado+=1
 ```
 
-### BUCLE FOR
+### :book: BUCLE FOR
 
 Es más potente para las **colecciones**, para poder iterar sobre listas, diccionarios, etc.
 
@@ -488,7 +488,106 @@ else:
 
 # :star: Dia 4
 
-Temas:
+Temas: Colecciones:
+
+- Listas
+
+- Tuplas
+
+- Diccionarios
+
+- Colas y Pilas
+
+---
+
+## Colecciones
+
+-> Una coleccion permite agrupar varios objetos mediante un mismo nombre.
+
+-> Puede guardar distintos tipos de elementos
+
+-> Puede tener elementos repetidos
+
+En Python tenemso distintos tipos de colecicones, como: listas, tuplas, diccionarios, colas y pilas.
+
+---
+
+## :book: Listas
+
+Las listas agrupan elementos.
+
+Así ya tengo mi lista declarada, por más que todavía no tenga elementos.
+
+```Python
+personas = []
+```
+
+Le asigno elementos
+```Python
+personas = ['Martin', 'Maria', 'Gonzalo', 'Raul','Pamela']
+```
+
+- Sus elementos se separan con **coma**
+
+- Si quiero acceder a uno de los elementos, hay que recordar que los **indices** comienzan desdde **0**. Siempre el indice va a ser un numero menos que el total de los elementos
+
+```Python
+print(personas[0]) # Martin -> accedo al indice 0, es decir el primer elemento
+print(personas[3]) # Raul -> accedo al indice 3, es decir el 4to elemento
+print(personas[-1]) # accedo al ultimo elemento
+print(personas[-2]) # accedo al anteultimo elemento
+```
+
+- Si quiero **eliminar** un elemento utilizo **del**
+
+```Python
+del personas[1] # con del elimino un elemento
+print(personas) # se elimino el elemento con indicde ['Martin',  -> 'Gonzalo', 'Raul', 'Pamela']
+```
+
+- Si quiero **agregar** elementos, utilizo el metodo **.inser(indice, elemento)**, voy a tener dos parametros: **indice** con un numero voy a indicar en que indice lo agrego y con **elemento** voy a aclarar qué elemento voy a ingresar.
+```Python
+personas.insert( 0, 'Martina') # con .insert() agrego un elemento
+print(personas)  # ['Martina', 'Martin', 'Gonzalo', 'Raul', 'Pamela'] asi agrego a Martina como primer elemento y desplazo todos un lugar
+```
+
+- Si quiero **agregar un elemento al final**, entonces utulizo el metodo **.append(elemento)**, aca solo tengo un argumento, ya que el indice no lo necesito porque siempre se agrega al final
+
+```Python
+personas.append('Mateo')  
+print(personas) # ['Martina', 'Martin', 'Gonzalo', 'Raul', 'Pamela', 'Mateo']
+```
+
+- Las lista agrupan elementos, pueden ser elementos de distinto tipo, en una misma lista puedo tener String con Integer, por ejemplo.
+
+```Python
+listaMezclada = ['Martin', 10, True, ['Pyhton', 'Java', 'JavaScript'], 1.0]
+print(listaMezclada) # ['Martin', 10, True, ['Pyhton', 'Java', 'JavaScript'], 1.0]
+```
+
+Si quiero acceder a Python que es una lista dentro de la lista
+```Python
+print(listaMezclada[3][0]) #Python
+```
+
+
+```Python
+```
+
+
+```Python
+```
+---
+
+##  :book: Tuplas
+
+---
+
+## :book: Diccionarios
+
+---
+
+##  :book: Colas y Pilas
 
 ---
 
