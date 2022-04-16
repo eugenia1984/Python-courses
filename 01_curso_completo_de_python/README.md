@@ -620,15 +620,51 @@ print(len(tupla[4]))  # 3
 
 -> No se puede utilizar el metodo append(), ya que la tupla **es inmutable**, por lo cual no se puede agregar nada a una tupla
 
-```Python
-```
-
-```Python
-```
 
 ---
 
 ## :book: Diccionarios
+
+-> Son **colecciones no ordenadas**, siempre se conforman de pares **key**-**value**, aca la posicion ya no tiene importancia.
+
+-> Para los diciconarios usamos **llaves**, para separar los elementos usamos la **coma**, y denominamos**clave : valor** (es decir que los dos puntos separan la key del value)
+
+-> Son flexibles, se le pueden agregar o sacar paras de key-value
+
+```Python
+personas = {'Brian': 26, 'Maria': 22, 'Martin': 66, 'Patricia': 55}
+print(personas) # {'Brian': 26, 'Maria': 22, 'Martin': 66, 'Patricia': 55}
+```
+
+-> Para ver el **value**, debo poner entre **corchetes** la **key**
+
+```Python
+print(personas['Brian']) # 26
+print(personas['Maria']) # 22
+```
+
+-> Si queresmos **agregar un nuevo par key-value**
+
+```Python
+personas['Jose'] = 42  # para agregar un nuevo par key-value, se agrega ala final
+print(personas) # {'Brian': 26, 'Maria': 22, 'Martin': 66, 'Patricia': 55, 'Jose': 42}
+```
+
+-> Si queremos **modificar** un **value**
+
+```Python
+personas['Brian'] = 23
+print(personas['Brian'])  # 23, asi modifico un value
+```
+
+```Python
+```
+
+```Python
+```
+
+```Python
+```
 
 ---
 
