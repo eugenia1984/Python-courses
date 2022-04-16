@@ -7,3 +7,5 @@ personas['Jose'] = 42  # para agregar un nuevo par key-value, se agrega ala fina
 print(personas) # {'Brian': 26, 'Maria': 22, 'Martin': 66, 'Patricia': 55, 'Jose': 42}
 personas['Brian'] = 23
 print(personas['Brian'])  # 23, asi modifico un value
+del personas['Martin'] # asi elimino el par key-value que tiene como key Martin
+print(personas) # {'Brian': 23, 'Maria': 22, 'Patricia': 55, 'Jose': 42}

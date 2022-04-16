@@ -657,18 +657,23 @@ personas['Brian'] = 23
 print(personas['Brian'])  # 23, asi modifico un value
 ```
 
-```Python
-```
+-> Para **eliminar** un par **key-value** utilizamos el metodo **del**
 
 ```Python
+del personas['Martin'] # asi elimino el par key-value que tiene como key Martin
+print(personas) # {'Brian': 23, 'Maria': 22, 'Patricia': 55, 'Jose': 42}
 ```
 
-```Python
-```
 
 ---
 
 ##  :book: Colas y Pilas
+
+```Python
+```
+
+```Python
+```
 
 ---
 
