@@ -13,3 +13,5 @@ print(personas) # ['Martina', 'Martin', 'Gonzalo', 'Raul', 'Pamela', 'Mateo']
 listaMezclada = ['Martin', 10, True, ['Pyhton', 'Java', 'JavaScript'], 1.0]
 print(listaMezclada) # ['Martin', 10, True, ['Pyhton', 'Java', 'JavaScript'], 1.0]
 print(listaMezclada[3][0]) #Python
+# me va a ignorar los elementos de indice 0 y 1, va a comenzar desde el elemento de indice 2
+print(listaMezclada[2:]) #  [True, ['Pyhton', 'Java', 'JavaScript'], 1.0]

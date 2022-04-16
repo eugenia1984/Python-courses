@@ -514,7 +514,11 @@ En Python tenemso distintos tipos de colecicones, como: listas, tuplas, dicciona
 
 ## :book: Listas
 
-Las listas agrupan elementos.
+-> Las listas agrupan elementos.
+
+-> Van entre **corchetes**
+
+-> Sus elementos se separan por **coma**
 
 Así ya tengo mi lista declarada, por más que todavía no tenga elementos.
 
@@ -568,18 +572,35 @@ print(listaMezclada) # ['Martin', 10, True, ['Pyhton', 'Java', 'JavaScript'], 1.
 Si quiero acceder a Python que es una lista dentro de la lista
 ```Python
 print(listaMezclada[3][0]) #Python
+# me va a ignorar los elementos de indice 0 y 1, va a comenzar desde el elemento de indice 2 ->
+print(listaMezclada[2:]) # [True, ['Pyhton', 'Java', 'JavaScript'], 1.0]
 ```
 
-
-```Python
-```
-
-
-```Python
-```
 ---
 
 ##  :book: Tuplas
+
+-> A diferencias de las listas las tuplas son **inmutables** (como los vectores en  Java), sus elementos no varian, en este caso hay que crear la tupla y ya asignarle los elementos
+
+-> van entre **parentesis** y sus elementos se separan con **coma**
+
+-> Pueden tener distintos tipos de elementos.
+
+```Python
+tupla = (11, 'Python', True, [1,2,3])
+print(tupla) # (11, 'Python', True, [1, 2, 3])
+```
+
+- Puedo acceder a sus elementos mediante los indices
+
+```Python
+print(tupla[0]) # 11
+print(tupla[1:]) # ('Python', True, [1, 2, 3])
+```
+
+```Python
+```
+
 
 ---
 
