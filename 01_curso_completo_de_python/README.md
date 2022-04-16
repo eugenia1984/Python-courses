@@ -692,13 +692,62 @@ print(f'Estan atendiendo a {i}')  # Estan atendiendo a Jose, con el format puedo
 print(fila) #  ['Maria', 'Raul', 'Paola', 'Romina']
 ```
 
-```Python
-```
-
-```Python
-```
 
 ---
+
+## :book: Conjuntos
+
+-> Es una coleccion no ordenada, no tiene elementos repetidos, **sus elementos son unicos**
+
+-> Un conjunto lo declaro con **set()**:
+
+```Python
+conjunto = set() # asi declaro al conjunto
+```
+
+-> En el conjunto también utilizo **llaves**, y como antes utilice **set()**, entonces Python entinedo que es un conjunto y no un diccionario (ya que los diccionarios también van entre llaves)
+
+```Python
+conjunto = {2, 'Python', 2, 'Euge', False}
+print(conjunto) # {False, 'Python', 2, 'Euge'} como el 2 esta repetido me muestra solo uno, pero al no ser ordenado no se cual de los dos me muestra
+```
+
+-> No puede tener una coleccion(lista, tupla, diccionario), como elemento.
+
+-> Se pueden **agregar** elementos con **.add()**
+
+```Python
+conjunto.add('Martin') # agrega un elemento en un lugar aleatorio ya que el conjunto no es una coleccion ordenada
+print(conjunto) # {False, 2, 'Martin', 'Python', 'Euge'}
+```
+
+-> Si quiero **eliminar** un elemento utilizo el metodo **.discard(elemento_a_eliminar)**
+
+```Python
+conjunto.discard('Euge')
+print(conjunto) # {False, 2, 'Martin', 'Python'}
+```
+
+-> Para **eliminar todos los elementos juntos** utilizo el metodo **.clear()**
+
+```Python
+conjunto.clear() # para eliminar todos los elementos
+print(conjunto)  # set()
+```
+
+-> Para **saber si un elmemento esta en el conjunto** utilizo el metodo **elemento in conjuno**, va a dar un valor boolean, True si se encuentra y False si no se encuentra.
+
+```Python
+print('Python' in conjunto)  # True asi veo si un elemento esta en el conjunto
+# TAMBIEN LO PUEDO NEGAR CON NOT
+print('Marcos' not in conjunto)  #  al negar de que esta me va a dar True, ya que Marcos no se encuentra
+```
+
+```Python
+```
+
+```Python
+```
 
 ---
 ---
