@@ -437,5 +437,60 @@ for i in range(1,10):
 
 -> crea una lista del 1 al 10, incluido, el segundo parámetro dentro de range() no se incluye, por eso no se ve el 11.  
 
+---
+
+## Tarea
+
+- 1  Escriba un programa que almacene la cadena de caracteres contraseña en una variable, para luego preguntarle al usuario por la contraseña. Luego, imprima en la consola si la contraseña que el usuario ingreso coincide con la guardada en variable.
+
+```Python
+contraseniaGuardada = "123456"
+contraseniaIngresada = (input("Ingrese la contraseña : "))
+if contraseniaIngresada == contraseniaGuardada:
+  print("Contraseña ingresada correctamente")
+else:
+  print("Error al ingresar la contraseña")
+```
+
+- 2  Realice un programa que le pida al usuario dos números y muestre por consola su división. Si el divisor es cero el programa debe mostrar un error.
+
+```Python
+primerNumeroIngresado = int (input("Ingrese un numero: "))
+segudoNumeroIngresado = int (input("Ingrese un segundo numero: "))
+if segudoNumeroIngresado != 0:
+   print(f"La division entre {primerNumeroIngresado} y {segudoNumeroIngresado} es : {primerNumeroIngresado/segudoNumeroIngresado}")
+else:
+  print("Error")
+```
+
+- 3 Escriba un programa que le pida al usuario por teclado un numero entero y muestre en consola si es par o impar.
+
+```Python
+esParOImpar = int (input("Ingrese un numero: "))
+if esParOImpar / 2 == 0:
+  print("Ingreso un numero PAR")
+else:
+  print("Ingreso un numero IMPAR")
+```
+
+- 4 Escriba un programa donde se evalué el ingreso a menores de edad, si la persona tiene menos de 19 años el programa le debe mostrar en pantalla que ¡No puede ingresar!, de caso contrario que le diga ¡Bienvenido!
+
+```Python
+edadParaIngresar = int(input("Ingrese su edad para informarle si puede ingresar: "))
+if edadParaIngresar >= 19:
+  print("Bienvenido")
+else:
+  print("No puede ingresar")
+```
+
 --- 
+---
+
+# :star: Dia 4
+
+Temas:
+
+---
+
+---
 ---
