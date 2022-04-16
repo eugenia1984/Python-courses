@@ -375,8 +375,8 @@ else:
 Para evaluar más de dos condiciones.
 
 ```Python
-edadActual = 70
-if edadActual >= 10 and edad <65:
+edadActual = int (input("Escribe tu edad: "))
+if edadActual >= 10 and edadActual <65:
   print('Eres Adulto')
 elif edadActual >= 65:
   print('Eres adulto mayor')
@@ -390,7 +390,7 @@ else:
 
 - Nos permiten repetir una porción de código tantas veces como queramos o necesitemos.
 
-### While
+### BUCLE WHILE
 
 Si **edad2** no estuviera cambiando en cada iteracion -> estaría en un bucle infinito
 
@@ -405,6 +405,37 @@ while edad2 <=18:
   print("Es menor de edad")
   edad2+=1
 ```
+
+Otro ejemplo
+
+```Python
+lenguajes = ['Python', 'Java', 'C', 'JavaScript', 'Go']
+lenguajeSeleccionado = 0
+while lenguajeSeleccionado < len(lenguajes):
+  print(lenguajes[lenguajeSeleccionado])
+  lenguajeSeleccionado+=1
+```
+
+### BUCLE FOR
+
+Es más potente para las **colecciones**, para poder iterar sobre listas, diccionarios, etc.
+
+La variable **i**, va a ser la variable iteradora, va a ir recorriendo todos los elementos, uno por uno, es decir que en cada iteración se va modificando
+Automaticamente Python la inicializa en 0 y la va incrementando de 1 en 1, es como el **forEach** de Java y de JavaScript
+
+```Python
+frutas = ['manzana', 'banana', 'uva', 'naranja']
+for i in frutas:
+  print(i)
+```
+
+Ejemplo de FOR IN RANGE:
+```Python
+for i in range(1,10):
+  print(i)
+```
+
+-> crea una lista del 1 al 10, incluido, el segundo parámetro dentro de range() no se incluye, por eso no se ve el 11.  
 
 --- 
 ---
