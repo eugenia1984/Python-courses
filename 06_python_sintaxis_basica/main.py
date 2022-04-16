@@ -27,4 +27,26 @@ CUESTIONARIO PRACTICO 1
 - CALCULAR EL CUADRADO
 RATIO = X**((1+ 5**(1/2))/2)
 PRINT(RATIO)
+
+# CUESTIONARIO 3
+- print("My first Python program")
+- PYTHON ES UN PROGRAMA DE PROPOSITO GENERAL
+- print("Have a nice day")
+- 
+for i in range(5):
+  print("Python is fun")
+-
+for i in range(10):
+  print(i)
+- CARACTERISTICAS DE PYTHON
+FACIL DE LEER Y ESCRIBIR
+PODEMOS PRACTICAR PYTHON USANDO WEB O LOCALMENTE 
+- COMPLETAR
+color="yellow"
+thnsg="sunshine"  
+print(color+ " is the color of " + thing )
+- CALCULAR LOS SEGUNDOS DE UNA SEMANA
+print(7 * 864000)
+- CUANTOS PASSWORD PODEMOS CALCULAR CON 6 LETRAS, por cada una hay 26 posibilidades
+print(26**6)
 """
