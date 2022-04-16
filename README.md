@@ -232,14 +232,8 @@ Output: 9 (Los pasos a seguir son: 13, 40, 20, 10, 5, 16, 8, 4, 2, 1)
 ---
 ---
 
-# :star: Sexto: Python, sintaxis basica
-
-:computer: Podés ver la teoría y mis ejercicios del curso en -> [**06_python_sintaxis_basica**](https://github.com/eugenia1984/Python-courses/tree/main/06_python_sintaxis_basica)
 
 
-
----
----
 
 
 

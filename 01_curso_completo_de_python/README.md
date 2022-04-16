@@ -331,3 +331,46 @@ print("La cadena ingresada tiene la longitud mayor o igual que 4 y a su vez que 
 
 ---
 ---
+
+# :star: Dia 3
+
+Temas:
+
+- control de flujo y condicionales: sentencia if / bucle while / bucle for
+
+---
+
+## Control de flujo
+
+Los script en Python es una instruccion que va de arriba hacia abajo y de izquierda a derecha.
+
+Para alterar el flujo natural del programa tenemos las **condicionales**
+
+```Python
+edad = 20
+if edad >=18:
+  print("Es mayor de edad")
+```
+
+Solo si la condición dentro del **if** es True ( se cumple), se entra dentro del bucle, si no cumple (si es False) entonces nunca entrará.
+
+---
+
+## Bucles
+
+Nos permiten repetir una porción de código tantas veces como queramos o necesitemos.
+
+### While
+
+Si **edad2** no estuviera cambiando en cada iteracion -> estaría en un bucle infinito
+
+Es muy importante que la variable vaya cambiando de valor y en algún momento la condición pasa de True a False, para cortar el loop
+
+```Python
+edad2 = 1
+while edad2 <=18:
+  print("Es menor de edad")
+  edad2+=1
+```
+
+--- 
