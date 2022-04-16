@@ -596,11 +596,35 @@ print(tupla) # (11, 'Python', True, [1, 2, 3])
 ```Python
 print(tupla[0]) # 11
 print(tupla[1:]) # ('Python', True, [1, 2, 3])
+print(tupla[3][2]) # 3 -> asi veo la longitud de la lista dentro de la tupla, cuantos elementos tiene
 ```
+
+-> Para **saber en que indice se encuentra determinado elemento** se utiliza el metodo **.index(elemento_a_buscar), hay que recordar que Python es case sensitive, prestar atencion a las mayusculas y las minusculas.
+
+```Python
+print(tupla.index(True)) # 2
+```
+
+-> Como la tupla puede tener elementos repetidos, **si quiero saber cuantas veces se encuentra un elemento**, utilizo el método **.count(elemento_a_buscar)**
+
+```Python
+print(tupla.count(11)) # 1
+```
+
+-> También funciona le método **len()** para saber la cantidad de elementos de una tupla
+
+```Python
+print(len(tupla)) # 5
+print(len(tupla[4]))  # 3
+```
+
+-> No se puede utilizar el metodo append(), ya que la tupla **es inmutable**, por lo cual no se puede agregar nada a una tupla
 
 ```Python
 ```
 
+```Python
+```
 
 ---
 
