@@ -789,7 +789,17 @@ print(tupla)
 
 # :star: Dia 5
 
-Tema: Funciones
+Tema: Funciones:
+
+- Declarar funciones
+
+- Retornar valores
+
+- Enviar valores
+
+- Argumentos indeterminados
+
+- Argumento sy parametros
 
 ---
 
