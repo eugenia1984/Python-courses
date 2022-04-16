@@ -810,4 +810,77 @@ Ya vinimos utulizando algunas funciones, como por ejemplo:
 **len()** -> determina la longitud de un elemento
 
 ---
+
+## :book: Declarar funciones
+
+**def** es la palabra reservada para definir una funcion
+
+Es muy importante la identación
+
+```
+def nombreFuncion():
+ # aca va la funcion
+```
+
+Ejemplo en codigo:
+```Python
+def saludar(): # declaramos nuestra funcion
+  print("Hola") #le damos cuerpo a la funcion
+saludar() # invoco, llamo a la funcion
+```
+
+La funcion nos ayuda a reutilizar código, va a ser muy importante con los modulos
+
+Otro ejemplo en codigo:
+
+```Python
+def sumar():
+  i = 10
+  m = 5
+  print('El resultado de la suma es: ', i + m)  
+```
+
+Hay que tener en cuenta que las variables que declare dentro de la funcion, solo existiran dentro de la funcion, tienen un ***scope local** y es el de la misma funcion, si por ejempplo:
+
+
+```Python
+i = 100
+def sumar():
+  i = 10
+  m = 5
+  print('El resultado de la suma es: ', i + m)  
+sumar() # invoco a la funcion sumar -> El resultado de la suma es:  15 , el 100 es un valor global de i, no es para el scope de la funcion
+print(i)  # 100 es la variable global, porque esta fuera de la funcion
+```
+
+
+Otro ejemplo:
+
+```Python
+def restar():
+  i = 80
+  m = 20
+  print('El resultado de tu resta es: ', + i-m)
+restar() # invoco a la funcion restar -> El resultado de tu resta es:  60
+```
+
+-> si presto atencion tanto en suma() como en resta() utilice las variables i y m, pero como solo tiene alcance local, no existen fuera e la funcion, no hya inconveniente
+
+---
+
+## :book: Retornar valores
+
+---
+
+## :book: Enviar valores
+
+---
+
+## :book: Argumentos inteterminados
+
+---
+
+## :book: Tarea
+
+---
 ---
