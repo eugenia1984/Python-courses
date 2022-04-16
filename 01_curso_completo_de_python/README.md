@@ -781,5 +781,23 @@ tupla = (20, 14.5, 'Hello', [1, 2, 3, 4, 5])
 print(tupla)
 ```
 
+-> La función **title()** en python es el método de cadena de Python que se utiliza para convertir el primer carácter de cada palabra en mayúsculas y los caracteres restantes en minúsculas en la cadena y devuelve una nueva cadena.
+ 
+
+---
+---
+
+# :star: Dia 5
+
+Tema: Funciones
+
+---
+
+Ya vinimos utulizando algunas funciones, como por ejemplo: 
+
+**print()**  -> imprime un argumento por pantalla
+
+**len()** -> determina la longitud de un elemento
+
 ---
 ---
