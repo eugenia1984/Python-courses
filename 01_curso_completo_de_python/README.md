@@ -344,7 +344,11 @@ Temas:
 
 Los script en Python es una instruccion que va de arriba hacia abajo y de izquierda a derecha.
 
-Para alterar el flujo natural del programa tenemos las **condicionales**
+Para alterar el flujo natural del programa tenemos las **condicionales**.
+
+- Es importantísima la **identación** en Python, sino no funciona el loop. También es muy importante poner los **dos puntos**.
+
+### IF
 
 ```Python
 edad = 20
@@ -354,17 +358,46 @@ if edad >=18:
 
 Solo si la condición dentro del **if** es True ( se cumple), se entra dentro del bucle, si no cumple (si es False) entonces nunca entrará.
 
+### IF ELSE
+
+Si no cumple con la condición, va a entrar al else
+
+```Python
+edadAEvaluar = 7
+if edadAEvaluar >=18:
+  print("Es mayor de edad")
+else:
+  print("Eres menor de edad")
+```
+
+### IF ELIF ELSE
+
+Para evaluar más de dos condiciones.
+
+```Python
+edadActual = 70
+if edadActual >= 10 and edad <65:
+  print('Eres Adulto')
+elif edadActual >= 65:
+  print('Eres adulto mayor')
+else:
+  print('Aun no eras adulto')
+```
+
 ---
 
 ## Bucles
 
-Nos permiten repetir una porción de código tantas veces como queramos o necesitemos.
+- Nos permiten repetir una porción de código tantas veces como queramos o necesitemos.
 
 ### While
 
 Si **edad2** no estuviera cambiando en cada iteracion -> estaría en un bucle infinito
 
 Es muy importante que la variable vaya cambiando de valor y en algún momento la condición pasa de True a False, para cortar el loop
+
+-> En el bucle WHILE siempre PRIMERO SE EVALUA LA CONDICION, o sea que si ya desde el inicio no se cumple, entonces nunca entra al bucle
+
 
 ```Python
 edad2 = 1
@@ -374,3 +407,4 @@ while edad2 <=18:
 ```
 
 --- 
+---
