@@ -906,9 +906,49 @@ def sumar(op1, op2): #op1 y op2 son argumentos
 print(sumar(2,3))  # 10
 ```
 
+Al llamar/invocar a la funcion debo incluir la misma cantidad de argumentos que tiene la funcion.
+
+Otro ejemplo:
+
+```Python
+def saludar(nombre):
+  return print(f"Hola {nombre}")
+saludar("Euge")  # Hola Euge
+```
+
 ---
 
-## :book: Argumentos inteterminados
+## :book: Argumentos indeterminados
+
+```Python
+def sumar(*args):
+  print(args)
+
+sumar(10,20,30,40,50,60,70)  # (10, 20, 30, 40, 50, 60, 70)
+```
+
+```*args``` indica que son varios argumentos, pero no se exactamente cuantos, pueden ser numeros(int), string, lista, etc el tipo de argumento.
+
+
+Otro ejemplo:
+
+```Python
+def mostrar(*args):
+  for i in args:
+    print(i)
+
+mostrar('Python', True, 10, 2.8, [1, 2, 3])
+```
+
+Y por consola veo:
+
+```
+Python
+True
+10
+2.8
+[1, 2, 3]
+```
 
 ---
 
