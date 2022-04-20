@@ -990,3 +990,55 @@ suma(2,8)
 
 ---
 ---
+
+# :star: Dia 6 : Manejo de errores
+
+Un claro error es la division por cero, en este caso Python muestra el error y se me bloquea el programa, todo lo que sigue a continuación no se ejecuta.
+
+Para eso vamos a tener que aplicar excepciones, asi saltea la linea de codigo y continua con el flujo de ejecucion.
+
+---
+
+## :book: Errores y Excepciones
+
+```Python
+def multiplicar(num1, num2):
+  try:
+    return num1 * num2
+  except ZeroDivisionError:
+    print("ERROR. No se puede dividir por 0")
+    return "Operacion no valida"
+```
+
+
+Otro ejemplo, donde el error lo guardo en la variable **c** que la uso como alias, para no escribir todo el nombre del error:
+
+```Python
+try:
+  c = int(input("Ingrese un valor: "))
+  c/0
+except Exception as c:
+  print(type(c).__name__)
+```
+
+---
+
+## :book: Excepciones multiples
+
+```Python
+try:
+  c = int(input("Ingrese un valor: "))
+  c/0
+except ValueError:
+  print("Debe ingresar un numero, no puede dividir una cadena de caracteres con un numero")
+except Exception as c:
+  print(type(c).__name__)  # ZeroDivisionError
+```
+
+---
+
+## :book: Tarea
+
+
+---
+---
