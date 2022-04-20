@@ -870,6 +870,30 @@ restar() # invoco a la funcion restar -> El resultado de tu resta es:  60
 
 ## :book: Retornar valores
 
+```Python
+def saludar():
+  return "Buenos dias"
+```
+
+```Python
+saludar()
+```
+Por consola no se ve nada, lo que hace la funcion es retornarme el string "Buenos dias"
+
+```Python
+print(saludar()) # veo por consola: Buenos dias
+```
+
+Otro ejemplo, si en el return ya tengo el print() loego solo invoco a la funcion y veo el mensaje:
+
+```Python
+def saludoConReturn():
+  return print("Buenos dias desde el return")
+
+saludoConReturn()  # Buenos dias desde el return
+```
+
+Puedo retornar String, int, diccionario, tupla, etc; todo tipo de elementos
 ---
 
 ## :book: Enviar valores
