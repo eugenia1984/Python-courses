@@ -1052,7 +1052,7 @@ def dividir():
   except ZeroDivisionError:
     print("ERROR. No se puede dividir por 0")
     return "Operacion no valida"
-    
+
 dividir()
 ```
 
@@ -1075,6 +1075,51 @@ def imprimirElemento():
 
 imprimirElemento()
 ```
+
+---
+---
+
+# :star: Programacion Orientada a Objetos
+
+Es un paradigma de programacion.
+
+Algunos conceptos son:
+
+- clase: mecanismo para definir un tipo de dato que continene atributos y metodos
+
+- instancia: es de una clase
+
+- variable de clase: comparte todas las instancias de una clase
+
+- variable de instancia: contiene datos de los objetos y atributos asociados a la instancia actual de la clase
+
+- metodo: son los procedimientos (las funciones), las acciones del objeto.
+
+- objeto: estructura de datos, que contienen informacion(CARACTERISTICAS) en forma de ATRIBUTOS y codigo en forma de procedimiento(FUNCIONES) conocido como METODO.
+
+---
+
+## :book: Programacion Orientada a Objetos
+
+---
+
+## :book: Clases Gelatina
+
+---
+
+## :book: Clase Persona
+
+---
+
+## :book: Metodos especiales
+
+---
+
+## :book: Encapsulamiento
+
+---
+
+## :book: Tarea
 
 ---
 ---
