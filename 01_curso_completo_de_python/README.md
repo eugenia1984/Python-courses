@@ -1097,13 +1097,36 @@ Algunos conceptos son:
 
 - objeto: estructura de datos, que contienen informacion(CARACTERISTICAS) en forma de ATRIBUTOS y codigo en forma de procedimiento(FUNCIONES) conocido como METODO.
 
----
+Vemos un ejemplo:
 
-## :book: Programacion Orientada a Objetos
+Tengo una clase **Persona**, con sus atributos ( **nombre**, **apellido**, **profesion**, **edad**) y sus metodos (**obtener el nombre de la persona**, **cambiar el nombre de la persona**, etc).
+
 
 ---
 
 ## :book: Clases Gelatina
+
+- el nombre de la clase siempre lleva la primer letra en mayuscula
+
+Ejemplo de clase.
+
+```Python
+class Gelatina:
+  # es mi constructor, el self es como el this
+  def __init__(self, sabor, color, tamanio):
+      self.sabor = sabor
+      self.color = color
+      self.tamanio = tamanio
+
+  # un metodo de la clase
+  def imprimir(self):
+    print(f'La gelatina es de {self.sabor}')
+    print(f'La gelatina se ve de de {self.color}')
+    print(f'La gelatina es de un tamaño {self.tamanio}')
+# instancio la clase Gelatina para crear mi primer objeto    
+gelatina1 = Gelatina('Frutilla', 'Rojo', 'Grande')
+gelatina1.imprimir()  # invoco al metodo para imprimir
+```
 
 ---
 
