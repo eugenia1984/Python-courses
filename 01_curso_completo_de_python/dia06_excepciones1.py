@@ -6,14 +6,14 @@ def sumar(num1, num2):
   return num1 + num2
 
 def multiplicar(num1, num2):
-  try:
     return num1 * num2
+    
+def dividir(num1, num2):
+  try:
+    return num1 / num2
   except ZeroDivisionError:
     print("ERROR. No se puede dividir por 0")
     return "Operacion no valida"
-    
-def dividir(num1, num2):
-  return num1/num2
 
 # Pido por consola los dos numeros para poder realizar las cuentas de las funciones
 opcion1 = int(input("Introduce el primer valor: "))  
