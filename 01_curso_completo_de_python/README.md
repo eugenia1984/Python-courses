@@ -1257,3 +1257,21 @@ print(miAuto.encender(True))
 
 ---
 ---
+
+# :book: Herencia
+
+---
+## :star: Herencia
+
+---
+
+## :star: Herencia Multiple
+
+---
+
+## :star: Tarea
+
+
+---
+---
+
