@@ -1181,6 +1181,11 @@ print(miCoche.arrancar(True)) # El auto esta encendido
 del(miCoche) # Se ha vendido el auto Audi
 ```
 
+
+---
+
+## :book: Encapsulamiento
+
 Forma de modificar un atributo:
 
 ```Python
@@ -1189,13 +1194,66 @@ miCoche2.marca= 'Peugeot' # asi modifico un atributo del objeto
 print(str(miCoche2)) # El auto es un Peugeot, tiene 222 kilometros, y es del año 1990
 ```
 
----
+Lo cual no esta bueno que cualquier puede meterse desde afuera y modifique mi atributo, por eso el encapsulamiento, para solo poder modificar un atributo desde dentro de mi clase.
 
-## :book: Encapsulamiento
+Para **encapsular** utilizo el doble guion bajo :
+
+```Python
+class Coche:
+  def __init__(self, marca, kilometros, anio):
+    self.__marca = marca  # con el doble guion bajo encapsulo el atributo marca, lo hago privado
+    self.kilometros = kilometros
+    self.anio = anio
+    print(f'Se ha crado un auto {self.__marca}, con {self.kilometros} kilometros')
+
+  def __str__(self):
+    return 'El auto es un {}, tiene {} kilometros, y es del año {}'.format(self.__marca, self.kilometros, self.anio) 
+
+miCoche1 = Coche('Audi', 222, 1992)
+miCoche1.marca = 'Peogeot' # al estar encapsulado no puedo cambiar el atributo
+print(str(miCoche1)) # me muestra Audi
+```
 
 ---
 
 ## :book: Tarea
+
+- 1 -Cree una clase Persona con sus atributos correspondientes: nombre, edad, sexo, nacionalidad. Luego cree una instancia de la clase Persona.
+
+```Python
+class Persona:
+  def __init__(self, nombre, edad, sexo, nacionalidad):
+    self.nombre = nombre
+    self.edad = edad
+    self.sexo = sexo
+    self.nacionalidad = nacionalidad
+  
+  def __str__(self):
+    return f'La persona se llama {self.nombre}, tiene {self.edad} años, es de sexo {self.sexo} y es de nacionalidad {self.nacionalidad}'
+persona1 = Persona('Eugenia', 37, 'Femenino', 'Argentina')
+print(str(persona1))
+```
+
+- 2- Cree una clase Auto con sus atributos correspondientes: marca, modelo, año, color. Defina también un método, donde luego al instanciar la clase nos diga si el auto esta encendido o apagado.
+
+```Python
+class Auto:
+  def __init__(self, marca, modelo, anio, color):
+    self.marca = marca
+    self.modelo = modelo
+    self.anio = anio
+    self.color = color
+  
+  def encender(self, encendemos):
+    self.encendido = encendemos
+    if(self.encendido):
+      return "El auto esta encendido"
+    else:
+      return "El auto este apagado"
+
+miAuto = Auto('Fiat', 'Uno', 2020, 'Azul')
+print(miAuto.encender(True))
+```
 
 ---
 ---
