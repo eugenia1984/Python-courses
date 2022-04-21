@@ -1152,6 +1152,8 @@ persona1.datosPersonales()
 
 ## :book: Metodos especiales
 
+**del** y **str** (este es como el .toString de Java)
+
 ```Python
 class Coche:
   def __init__(self, marca, kilometros, anio):
@@ -1160,7 +1162,14 @@ class Coche:
     self.anio = anio
     print(f'Se ha crado un auto {self.marca}, con {self.kilometros} kilometros')
 
-  def __del__(self):
+  def arrancar(self, arrancamos):
+    self.enmarcha = arrancamos
+    if(self.enmarcha):
+      return "El auto esta encendido"
+    else:
+      return "El auto este apagado"
+
+  def __del__(self): # con este metodo elimino el objeto coche
     print(f'Se ha vendido el auto {self.marca}')
 
   def __str__(self):
@@ -1168,8 +1177,18 @@ class Coche:
 # instancio un objeto
 miCoche = Coche('Audi', 200, 1995)
 print(str(miCoche))
-del(miCoche)
+print(miCoche.arrancar(True)) # El auto esta encendido
+del(miCoche) # Se ha vendido el auto Audi
 ```
+
+Forma de modificar un atributo:
+
+```Python
+miCoche2 = Coche('Audi', 222, 1990)
+miCoche2.marca= 'Peugeot' # asi modifico un atributo del objeto
+print(str(miCoche2)) # El auto es un Peugeot, tiene 222 kilometros, y es del año 1990
+```
+
 ---
 
 ## :book: Encapsulamiento
