@@ -1519,6 +1519,9 @@ print(segundoMensaje.isalnum()) # False busca si es alfanumerico
 
 ## :star: Arrays (lista)
 
+
+Algunos metodos de los arrays, son :
+
 **.append()** -> agrego el elemento al final de la lista
 ```Python
 lista = [1, 2, 3, 4, 5]
@@ -1583,14 +1586,62 @@ print(lista) # [1, 2, 3, 4, 5, 6, 7, 8]
 
 ## :star: Diccionarios
 
+Algunos de los metodos especiales de los diccionarios(van entre llaves, son de key-value), son:
+
+teneindo este diccionario:
+
+```Python
+personas= {'Martin':'Martinez', 'Jose':'Alvarez', 'Maria':'Gomez'}
+```
+
+**.get(key)** -> Si la key esta en el doccionario me da el valor
+```Python
+print(personas.get('Jose')) # alvarez
+```
+
+**.key()** -> me muestra las key en una lista
+```Python
+print(personas.keys()) # dict_keys(['Martin', 'Jose', 'Maria'])
+```
+
+**.values** -> me muestra los values en una lista
+```Python
+print(personas.values()) # dict_values(['Martinez', 'Alvarez', 'Gomez'])
+```
+
+**.items()** -> se genera una lista con key-value de cada item del diccionario
+```Python
+print(personas.items()) # dict_items([('Martin', 'Martinez'), ('Jose', 'Alvarez'), ('Maria', 'Gomez')])
+```
 
 ```Python
 ```
 
+Con un **FOR** recorro todo el diccionario y voy imprmiendo cada par **clave** **valor**
+```Python
+for clave, valor in personas.items():
+  print(clave, valor)
+"""
+Martin Martinez
+Jose Alvarez
+Maria Gomez
+"""
+```
 
 ```Python
 ```
 
+```Python
+```
+
+```Python
+```
+
+```Python
+```
+
+```Python
+```
 
 ```Python
 ```

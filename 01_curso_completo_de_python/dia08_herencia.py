@@ -14,7 +14,6 @@ class Persona:
 
 ## Creo la clase Empleado que hereda de persona
 class Empleado(Persona):
-
   def datosEmpleado(self, vacaciones, salario):
     print(f'Sus dias de vacaciones son: {vacaciones}')
     print(f'Su salario es: {salario}')
