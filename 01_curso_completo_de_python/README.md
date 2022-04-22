@@ -1641,7 +1641,47 @@ personas.clear()
 
 ## :star: Conjuntos
 
+Algunos metodos de los conjuntos, son:
 
+**.set()** -> indica que va a ser un **conjunto**
+
+**.add()** -> para ir agregando elemento por elemento
+```Python
+conjunto = set()
+conjunto.add(1)
+conjunto.add(2)
+conjunto.add(3)
+print(conjunto) # {1, 2, 3}
+```
+
+**.discard()** -> para eliminar el elemento que indico entre ()
+```Python
+conjunto.discard(1)
+print(conjunto) # { 2, 3}
+```
+
+**.copy()** -> hago una copia del conjunto
+```Python
+conjunto2 = conjunto.copy() 
+print(conjunto2) # { 2, 3}
+```
+
+**.clear** -> elimina todos los elementos de los conjuntos
+```Python
+conjunto.clear() 
+print(conjunto) # set()
+```
+
+---
+---
+
+# :book: Dia 10
+
+## :star: Modulos
+
+## :star: Paquetes
+
+## :star: Ejercicios
 ```Python
 ```
 
@@ -1651,5 +1691,10 @@ personas.clear()
 ```Python
 ```
 
-```Python
-```
+## :star: Tarea
+
+- 1 - Cree un modulo con todas las operaciones matemáticas, luego impórtela en un archivo.py y realice las operaciones matemáticas
+llamando a cada función.
+
+- 2 - Cree un modulo que obtenga una función que solamente diga ‘Hola mundo’ luego impórtelo en un archivo.py y muéstrelo por
+consola.
