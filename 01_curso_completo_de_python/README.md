@@ -1466,3 +1466,33 @@ empleado1.estaJubilado()
 ---
 ---
 
+# :book: Dia 9
+
+## :star: Cadenas (String)
+
+Algunos métodos, son:
+
+```Python
+nombreIngresado = input('ingrese su nombre por favor: ')
+print('El nombre del usuario es: ', nombreIngresado)
+```
+
+**.upper()** ->  Metodo para pasar todo en mayuscula
+```Python
+print ('El nombre todo en mayuscula es: ', nombreIngresado.upper())
+```
+
+**.lower()** ->  Metodo para pasar todo en minuscula
+```Python
+print ('El nombre todo en minuscula es: ', nombreIngresado.lower())
+```
+
+**.capitalize()** ->  Si necesito la primer letra en mayuscula y el resto en minucula
+```Python
+print ('El nombre capitalizado es: ', nombreIngresado.capitalize())
+```
+## :star: Arrays
+
+## :star: Diccionarios
+
+## :star: Canjuntos
