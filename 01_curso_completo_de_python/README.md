@@ -1679,11 +1679,38 @@ print(conjunto) # set()
 
 ## :star: Modulos
 
+Para poder trabajar con modulos, creamos una carpeta **modulos** y dentro tenemos el archivo **calculadora.py** con el siguiente codigo:
+
+```Python
+def sumar(op1, op2):
+  print(f'El resultado de tu suma es: {op1+op2}')
+
+def restar(op1, op2):
+  print(f'El resultado de tu resta es: {op1-op2}')
+
+def dividir(op1, op2):
+  if (op2 == 0):
+    print('No se puede dividir por cero')
+  else:
+    print(f'El resultado de la division es: {op1/op2}')
+
+def multiplicar(op1, op2):
+  print(f'El resultado de la multiplicacion es: {op1*op2}')
+```
+
+Tambien dentro de **modulos** creo el archivo **calcular*py**, en el cual importo calculadora y voy a poder utilizar todas sus funciones
+
+```Python
+from calculadora import * # desde la calculadora me importa todo lo que tiene (sus 3 funciones)
+sumar(3,3) # El resultado de tu suma es: 6
+restar(6,2) # El resultado de tu resta es: 4
+dividir(8,0) # No se puede dividir por cero
+multiplicar(2,3) # El resultado de la multiplicacion es: 6
+```
 ## :star: Paquetes
 
 ## :star: Ejercicios
-```Python
-```
+
 
 ```Python
 ```
