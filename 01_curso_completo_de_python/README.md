@@ -1709,19 +1709,34 @@ multiplicar(2,3) # El resultado de la multiplicacion es: 6
 ```
 ## :star: Paquetes
 
-## :star: Ejercicios
+Es parecido a los modulos.
 
+Voy a crear una nueva carpeta, llamada **paquete** y dentro agrego dos archivos: **op1.py** y **op2.py**.
+
+En **op1.py** voy a tener las mismas funciones de *sumar* y *restar* que arme para los modulos y en **op2.py** voy a tener las funciones *multiplicar* y *dividir* que arme para los modulos
+
+Ahora por fuera dae la carpeta creo un archivo llamado **dia10_paquetes.py**, en el voy a **importar** desde **paquete** el archivo **op1** y voy a utilizar ambas funciones, las nombro y separo con **coma**,si tuviera mucha funciones utilizo el **asterico** para indicarle que quiero importar todo.
 
 ```Python
+from paquete.op1 import sumar, restar
+from paquete.op2 import *
+sumar(2,2) # El resultado de tu suma es: 4
+restar(10,2) # El resultado de tu resta es: 8
+dividir(10,2) # El resultado de la division es: 5.0
 ```
 
+- Creo otra carpeta llamada **paquete_personas** y dentro tengo el archivo **datos_persona.py** con la clase **Persona**, el archivo **empleado.py** con la clase **Empleado**. Y por fuera tengo el archivo **dia10_personas.py** voy a importar del paquete_personas los dos archivos con todo lo que tienen
+
 ```Python
+from paquete_personas.datos_personas import *
+from paquete_personas.empleado import *
 ```
+
+Entonces voy a poder instanciar un objeto de la clase Persona y de la clase Empleado y tambien utilizar los metodos : .datosPersonales() y. datosEmpleado()
 
 ## :star: Tarea
 
-- 1 - Cree un modulo con todas las operaciones matemáticas, luego impórtela en un archivo.py y realice las operaciones matemáticas
-llamando a cada función.
+- 1 - Cree un modulo con todas las operaciones matemáticas, luego impórtela en un archivo.py y realice las operaciones matemáticas llamando a cada función.
 
 - 2 - Cree un modulo que obtenga una función que solamente diga ‘Hola mundo’ luego impórtelo en un archivo.py y muéstrelo por
 consola.
