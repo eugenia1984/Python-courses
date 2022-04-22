@@ -1364,7 +1364,7 @@ print "- N. Tareas: {0}.".format(supervisor1.consulta_tareas())
 
 ## :star: Herencia Multiple
 
-A diferencia de lenguajes como Java y C#, el lenguaje Python permite la herencia múltiple, es decir, se puede heredar de múltiples clases.
+A diferencia de lenguajes como Java y C#, el lenguaje Python permite la **herencia múltiple**, es decir, se puede heredar de múltiples clases.
 
 La herencia múltiple es la capacidad de una subclase de heredar de múltiples súper clases.
 
@@ -1373,43 +1373,30 @@ Esto conlleva un problema, y es que si varias súper clases tienen los mismos at
 En estos casos Python dará prioridad a las clases más a la izquierda en el momento de la declaración de la subclase:
 
 ```Python
-class Destreza(object):
-    """Clase la cual representa la Destreza de la Persona"""
+class Destreza(object): # Clase la cual representa la Destreza de la Persona
+  def __init__(self, area, herramienta, experiencia): # Constructor de clase Destreza
+    self.area = area
+    self.herramienta = herramienta
+    self.experiencia = experiencia
 
-    def __init__(self, area, herramienta, experiencia):
-        """Constructor de clase Destreza"""
-        self.area = area
-        self.herramienta = herramienta
-        self.experiencia = experiencia
+  def __str__(self): # Devuelve una cadena representativa de la Destreza
+    return """Destreza en el área %s con la herramienta %s, 
+    tiene %s años de experiencia.""" % (
+        str(self.area), self.experiencia, self.herramienta)
 
-    def __str__(self):
-        """Devuelve una cadena representativa de la Destreza"""
-        return """Destreza en el área %s con la herramienta %s, 
-        tiene %s años de experiencia.""" % (
-            str(self.area), self.experiencia, self.herramienta)
+class JefeCuadrilla(Supervisor, Destreza): # Clase la cual representa al Jefe de Cuadrilla
+  def __init__(self, cedula, nombre, apellido, sexo, 
+    rol, area, herramienta, experiencia, cuadrilla): # Constructor de clase Jefe de Cuadrilla
+    # Invoca al constructor de clase Supervisor
+    Supervisor.__init__(self, cedula, nombre, apellido, sexo, rol)
+    # Invoca al constructor de clase Destreza
+    Destreza.__init__(self, area, herramienta, experiencia)
+    self.cuadrilla = cuadrilla # Nuevos atributos
 
-
-class JefeCuadrilla(Supervisor, Destreza):
-    """Clase la cual representa al Jefe de Cuadrilla"""
-
-    def __init__(self, cedula, nombre, apellido, sexo, 
-        rol, area, herramienta, experiencia, cuadrilla):
-        """Constructor de clase Jefe de Cuadrilla"""
-
-        # Invoca al constructor de clase Supervisor
-        Supervisor.__init__(self, cedula, nombre, apellido, sexo, 
-            rol)
-        # Invoca al constructor de clase Destreza
-        Destreza.__init__(self, area, herramienta, experiencia)
-
-        # Nuevos atributos
-        self.cuadrilla = cuadrilla
-
-    def __str__(self):
-        """Devuelve cadena representativa al Jefe de Cuadrilla"""
-        jq = "{0}: {1} {2}, rol '{3}', tareas {4}, cuadrilla: {5}"
-        return jq.format(
-            self.__doc__[28:46], self.nombre, self.apellido, 
+  def __str__(self): # Devuelve cadena representativa al Jefe de Cuadrilla
+    jq = "{0}: {1} {2}, rol '{3}', tareas {4}, cuadrilla: {5}"
+    return jq.format(
+        self.__doc__[28:46], self.nombre, self.apellido, 
 ```
 
 #### Method Resolution Order (MRO)
@@ -1451,6 +1438,30 @@ Destreza.__mro__
 
 ## :star: Tarea
 
+- 1 - Realice una clase persona con sus atributos correspondientes, luego haga una clase empleado que herede los atributos de la clase Persona. Por último, cree un método de la clase empleado e instancie la clase.
+
+```Python
+class Persona():
+  def __init__(self, nombre, apellido, edad, nacionalidad):
+    self.nombre = nombre
+    self.apellido = apellido
+    self.edad = edad
+    self.nacionalidad = nacionalidad
+
+class Empleado(Persona):
+  def __init__(self, nombre, apellido, edad, nacionalidad, estado):
+    Persona.__init__(self, nombre, apellido, edad, nacionalidad)
+    self.estado = estado
+
+  def estaJubilado(estado):
+    if (estado == True):
+      print('Esta jubilado')
+    else:
+      print('Es un empeado activo, no se jubilo todavia')
+
+empleado1 = Empleado('Ana', 'Gonzalez', 35, 'Peruana', True)
+empleado1.estaJubilado()
+```
 
 ---
 ---
