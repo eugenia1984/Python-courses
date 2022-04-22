@@ -11,3 +11,6 @@ Martin Martinez
 Jose Alvarez
 Maria Gomez
 """
+personas.pop('Martin') # para eliminar la KEY con el valor indicado
+print(personas) # no muestra a Martin, elimino tanto la clave como el valor
+personas.clear() # me elimina todos los elementos

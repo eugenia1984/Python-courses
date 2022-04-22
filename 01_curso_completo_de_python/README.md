@@ -1628,8 +1628,19 @@ Maria Gomez
 """
 ```
 
+**.pop()** -> para eliminar la KEY con el valor indicado
 ```Python
+personas.pop('Martin') 
+print(personas) # no muestra a Martin, elimino tanto la clave como el valor
 ```
+
+**.clear()** -> me elimina todos los elementos
+```Python
+personas.clear() 
+```
+
+## :star: Conjuntos
+
 
 ```Python
 ```
@@ -1642,7 +1653,3 @@ Maria Gomez
 
 ```Python
 ```
-
-```Python
-```
-## :star: Canjuntos
