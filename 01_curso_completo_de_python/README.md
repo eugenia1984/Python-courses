@@ -1491,8 +1491,57 @@ print ('El nombre todo en minuscula es: ', nombreIngresado.lower())
 ```Python
 print ('El nombre capitalizado es: ', nombreIngresado.capitalize())
 ```
-## :star: Arrays
 
+**.isdigit()** -> corroboro si ingrese un int
+```Python
+mensaje = 'Hola mundo'
+print(mensaje.isdigit()) # False, corrobora que no tengo un valor numerico
+mensaje = '123'
+print(mensaje.isdigit()) # True
+numeroEntero = 123
+#print(numeroEntero.isdigit()) # AttributeError: 'int' object has no attribute 'isdigit'
+```
+
+**.split()** -> para separar
+```
+segundoMensaje= 'Hola me llamo Eugenia'
+print(segundoMensaje.split('-')) # ['Hola me llamo Eugenia']
+print(segundoMensaje.split(' ')) # ['Hola', 'me', 'llamo', 'Eugenia']
+```
+
+**.isalnum()** -> busca si es alfanumerico
+
+Si llego a poner ```'abc123 '``` no me da que es alfanumerico por el espacio.
+
+```Python
+print(segundoMensaje.isalnum()) # False busca si es alfanumerico
+```
+
+## :star: Arrays (lista)
+
+**.append()** -> agrego el elemento al final de la lista
+```Python
+lista = [1, 2, 3, 4, 5]
+lista.append(6) # agrego al final
+print(lista) # [1, 2, 3, 4, 5, 6]
+```
+
+**.extend()** -> para unir listas
+```Python
+lista = [1, 2, 3, 4, 5]
+lista2 = [6, 7, 8, 9]
+lista.extend(lista2) # para unir listas
+print(lista) # [1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+
+
+```Python
+```
+
+
+```Python
+```
 ## :star: Diccionarios
 
 ## :star: Canjuntos
