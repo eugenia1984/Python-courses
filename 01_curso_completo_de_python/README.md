@@ -1263,6 +1263,12 @@ print(miAuto.encender(True))
 ---
 ## :star: Herencia
 
+Permite reutilizar código.
+
+Utilizamos las clases.
+
+Voy a tener la clase **Persona** y la clase **Empleado**, esta ultima va a heredar de la clase Persona, es como un 'hijo' de la clase Padre, entonces va a tner las mismas caracteristicas(propiedades) que Persona más las propias. Y de este modo nos ahorramos de repetir el codigo de las propiedades. También hereda los métodos.
+
 ---
 
 ## :star: Herencia Multiple
