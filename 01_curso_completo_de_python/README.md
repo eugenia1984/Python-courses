@@ -1553,14 +1553,45 @@ lista.insert(2,0) # voy a agregar en el indice 2 al numero 0
 print(lista) # [1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
 ```
 
+**.len()** -> para saber la longitud, la cantidad de elementos
 ```Python
+print(len(lista)) # 10
 ```
 
+**.pop()** -> borra el ultimo elemento
 ```Python
+print(lista.pop()) # 9
 ```
 
+**.remove(arg)** -> se pasa como argumento lo que se quiere eliminar
 ```Python
+lista.remove(0) # voy a eliminar el 0
+print(lista) # [1, 2, 3, 4, 5, 6, 7, 8]
 ```
+
+**.reverse()** ->  me la da vuelta el ultimo elemento pasa a ser el primero,el anteultimo elemento pasa a ser el segundo y asi.
+```Python
+lista.reverse()
+print(lista) # [8, 7, 6, 5, 4, 3, 2, 1]
+```
+
+**.sort()** -> ordena de menor a mayor
+```Python
+lista.sort() # los ordena de menor a mayor
+print(lista) # [1, 2, 3, 4, 5, 6, 7, 8]
+```
+
 ## :star: Diccionarios
 
+
+```Python
+```
+
+
+```Python
+```
+
+
+```Python
+```
 ## :star: Canjuntos
