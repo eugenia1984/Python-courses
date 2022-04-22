@@ -1269,10 +1269,184 @@ Utilizamos las clases.
 
 Voy a tener la clase **Persona** y la clase **Empleado**, esta ultima va a heredar de la clase Persona, es como un 'hijo' de la clase Padre, entonces va a tner las mismas caracteristicas(propiedades) que Persona más las propias. Y de este modo nos ahorramos de repetir el codigo de las propiedades. También hereda los métodos.
 
+
+Ejemplo en codigo:
+
+```Python
+class Empleado(Persona):
+
+  def datosEmpleado(self, vacaciones, salario):
+    print(f'Sus dias de vacaciones son: {vacaciones}')
+    print(f'Su salario es: {salario}')
+```
+
+Tengo a mi clase Empleado que EXTIENDE de la calse Persona, va a tener todos los atributos y metodos de la clase Persona, más los propios.
+
+
+### Un ejemplo con una clase y la clase hija con constructores en cada una
+
+Tengo la clase Persona:
+
+```Python
+class Persona(object): #Clase que representa una Persona
+  def __init__(self, cedula, nombre, apellido, sexo): # Constructor de clase Persona
+      self.cedula = cedula
+      self.nombre = nombre
+      self.apellido = apellido
+      self.sexo = sexo
+
+  def __str__(self): # Devuelve una cadena representativa de Persona
+      return "%s: %s, %s %s, %s." % (
+          self.__doc__[25:34], str(self.cedula), self.nombre, 
+          self.apellido, self.getGenero(self.sexo))
+
+  def hablar(self, mensaje): # Mostrar mensaje de saludo de Persona
+      return mensaje
+
+  def getGenero(self, sexo): # Mostrar el genero de la Persona
+    genero = ('Masculino','Femenino')
+    if sexo == "M":
+        return genero[0]
+    elif sexo == "F":
+        return genero[1]
+    else:
+        return "Desconocido"
+```
+
+La clase Persona tiene los métodos ```__init__```, ```__str__```, ```hablar``` y ``` getGenero```. Sus atributos son ```cedula```, ```nombre```, ```apellido``` y ```sexo```.
+
+La instancia de dos nuevos objetos Persona seria de la siguiente forma:
+
+```Python
+persona1 = Persona("V-13458796", "Leonardo", "Caballero", "M")
+persona2 = Persona("V-23569874", "Ana", "Poleo", "F")
+```
+
+
+Y la clase hija Supervisor
+
+```Python
+class Supervisor(Persona): # Clase que representa a un Supervisor
+
+  def __init__(self, cedula, nombre, apellido, sexo, rol): # Constructor de clase Supervisor
+    Persona.__init__(self, cedula, nombre, apellido, sexo) # Invoca al constructor de clase Persona
+    self.rol = rol  # Nuevos atributos
+    self.tareas = ['10','11','12','13']  # Nuevos atributos
+
+  def __str__(self): # Devuelve una cadena representativa al Supervisor
+    return "%s: %s %s, rol: '%s', sus tareas: %s." % (
+      self.__doc__[26:37], self.nombre, self.apellido, 
+      self.rol, self.consulta_tareas())
+
+  def consulta_tareas(self): # Mostrar las tareas del Supervisor
+    return ', '.join(self.tareas)
+```
+
+Para instanciar un objeto de la clase Supervisor
+```Python
+supervisor1 = Supervisor("V-16987456", "Jen", "Paz", "D", "Chivo")
+print "\n" + str(supervisor1) + "\n"
+# Como la instancia de objeto supervisor1 hereda los atributo(s) y método(s) de la clase Persona usted puede reusarlo y llamarlo de la siguiente forma:
+print "- Cedula de identidad: {0}.".format(supervisor1.cedula)
+print "- Nombre completo: {0} {1}.".format(
+	supervisor1.nombre, supervisor1.apellido)
+print "- Genero: {0}.".format(
+	supervisor1.getGenero(supervisor1.sexo))
+print "- {0} {1} dijo: {2}".format(
+	supervisor1.nombre, supervisor1.apellido, 
+	supervisor1.hablar("A trabajar Leonardo!!!".upper()))
+# Si desea usar los atributo(s) y método(s) heredados de la clase Supervisor se puede imprimir de la siguiente forma:
+print "- Rol: {0}.".format(supervisor1.rol)
+print "- N. Tareas: {0}.".format(supervisor1.consulta_tareas())
+```
+
 ---
 
 ## :star: Herencia Multiple
 
+A diferencia de lenguajes como Java y C#, el lenguaje Python permite la herencia múltiple, es decir, se puede heredar de múltiples clases.
+
+La herencia múltiple es la capacidad de una subclase de heredar de múltiples súper clases.
+
+Esto conlleva un problema, y es que si varias súper clases tienen los mismos atributos o métodos, la subclase sólo podrá heredar de una de ellas.
+
+En estos casos Python dará prioridad a las clases más a la izquierda en el momento de la declaración de la subclase:
+
+```Python
+class Destreza(object):
+    """Clase la cual representa la Destreza de la Persona"""
+
+    def __init__(self, area, herramienta, experiencia):
+        """Constructor de clase Destreza"""
+        self.area = area
+        self.herramienta = herramienta
+        self.experiencia = experiencia
+
+    def __str__(self):
+        """Devuelve una cadena representativa de la Destreza"""
+        return """Destreza en el área %s con la herramienta %s, 
+        tiene %s años de experiencia.""" % (
+            str(self.area), self.experiencia, self.herramienta)
+
+
+class JefeCuadrilla(Supervisor, Destreza):
+    """Clase la cual representa al Jefe de Cuadrilla"""
+
+    def __init__(self, cedula, nombre, apellido, sexo, 
+        rol, area, herramienta, experiencia, cuadrilla):
+        """Constructor de clase Jefe de Cuadrilla"""
+
+        # Invoca al constructor de clase Supervisor
+        Supervisor.__init__(self, cedula, nombre, apellido, sexo, 
+            rol)
+        # Invoca al constructor de clase Destreza
+        Destreza.__init__(self, area, herramienta, experiencia)
+
+        # Nuevos atributos
+        self.cuadrilla = cuadrilla
+
+    def __str__(self):
+        """Devuelve cadena representativa al Jefe de Cuadrilla"""
+        jq = "{0}: {1} {2}, rol '{3}', tareas {4}, cuadrilla: {5}"
+        return jq.format(
+            self.__doc__[28:46], self.nombre, self.apellido, 
+```
+
+#### Method Resolution Order (MRO)
+
+Ese es el orden en el cual el método debe heredar en la presencia de herencia múltiple. Usted puede ver el MRO usando el atributo ```__mro__```.
+
+```Python
+JefeCuadrilla.__mro__
+```
+
+```
+(<class '__main__.JefeCuadrilla'>,
+<class '__main__.Supervisor'>,
+<class '__main__.Persona'>,
+<class '__main__.Destreza'>,
+<type 'object'>)
+```
+
+
+```Python
+Supervisor.__mro__
+```
+
+```
+(<class '__main__.Supervisor'>,
+<class '__main__.Persona'>,
+<type 'object'>)
+```
+
+```Python
+Destreza.__mro__
+```
+
+```
+(<class '__main__.Destreza'>,
+<type 'object'>)
+```
 ---
 
 ## :star: Tarea
