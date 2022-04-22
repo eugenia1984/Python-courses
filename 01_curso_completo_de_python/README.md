@@ -1535,10 +1535,29 @@ print(lista) # [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
 
+**.count(arg)** -> para ver cuantas veces tengo dicho argumento en la lista
+
+```Python
+print(lista.count(1)) # 1
+```
+
+**index(arg)** -> para ver en que indice esta un elemento que paso como argumento
+```Python
+print(lista.index(1)) # 0 
+```
+
+**.insert()** -> Tengo dos argumentos, el primero es en el indice en que voy a agregar el elemento, el segundo es el elemento a agregar.
+
+```Python
+lista.insert(2,0) # voy a agregar en el indice 2 al numero 0
+print(lista) # [1, 2, 0, 3, 4, 5, 6, 7, 8, 9]
+```
 
 ```Python
 ```
 
+```Python
+```
 
 ```Python
 ```
