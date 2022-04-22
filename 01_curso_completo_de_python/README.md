@@ -1738,5 +1738,40 @@ Entonces voy a poder instanciar un objeto de la clase Persona y de la clase Empl
 
 - 1 - Cree un modulo con todas las operaciones matemáticas, luego impórtela en un archivo.py y realice las operaciones matemáticas llamando a cada función.
 
-- 2 - Cree un modulo que obtenga una función que solamente diga ‘Hola mundo’ luego impórtelo en un archivo.py y muéstrelo por
-consola.
+Ya fue realizado mientras veia el tema
+
+---
+---
+
+# :book: Dia 11 
+
+## :star: Ficheros
+
+En el archivo **dia11_fichero.py** tengo:
+
+- 1- Importo la libreria **io** y su metodo **open**
+```Python
+from io import open # voy a utilizar la libreria io y su metodo open
+```
+- 2- Creacion y apertura del fichero
+```Python
+fichero = open('archivo.txt', 'w') # el primer argumento es el nombre del archivo, el segundo argumento es el modo en que lo quiero abrir (w = write, escritura)
+```
+
+- 3- La manipulacion del fichero
+```Python
+texto ='Hola Mundo\nEstoy estudiando Python'
+fichero.write(texto) # como parametro paso el texto que va a tener
+```
+- 4- El cierre del fichero
+```Python
+fichero.close() # siempre tengo que cerrar cuando tengo el metodo write
+```
+
+-> si hago **run** voy a tener el archivo **archivo.txt** creado
+
+## :star: Serializacion Objeto
+
+## :star: Serializacion Clase
+
+## :star: Tarea
