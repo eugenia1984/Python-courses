@@ -2089,22 +2089,152 @@ root.config(bd="10")
 root.config(relief="ridge")
 ```
 
-```Python
-```
-
-```Python
-```
-
-```Python
-```
 
 ---
 
 ## :star:  Label
 
+Para ver las etiquetas creo el archivo **interfaz3.py**
+
+Las etiquetas muestran imagen o texto, pero no puedo interactuar con la misma.
+
+- Si quiero crear una etiqueta **label** e indicarle el texto a mostrar, lo hago con **Label(arg, text="message")** guardandolo en la varaible **label**
+```Python
+from tkinter import *
+
+root = Tk()
+root.title("Hi!")
+root.config(width=400, height=500)
+# creo la variable LABEL para crear la etiqueta y luego poder ubicarla
+label = Label(root, text="Hello world") # creo la etiqueta y le indico donde se ubica (root) y con text le indico que texto quiero ver
+label.pack()
+root.mainloop()
+```
+
+-  Si uso **label.pack** la ventana va a tomar el alto y ancho de mi label y no me respeta los 400x500 que le configure, por eso debo utilizar **label.place()** y darle la ubicacion tanto en el eje **x** como en el eje **y**
+```Python
+from tkinter import *
+
+root = Tk()
+root.title("Hi!")
+root.config(width=400, height=500)
+label = Label(root, text="Hello world")
+label.place(x=150, y=100) # porque si uso label.pack la ventana va a tomar el alto y ancho de mi label y no me respeta los 400x500 que le configure, por eso utilizo el .place y con x, y la ubico con respecto al eje x e y, el 0,0 esta en el top-left corner
+label = Label(root, text="Welcome")
+label.place(x=160, y=200)
+root.mainloop()
+```
+
+- Si la variable label luego no la voy a modificar, puedo hacerlo todo junto sin usar variable:
+
+-> **Label(root, text="Welcome").place(x=160, y =200)**
+
+Pero si mas adelante quiero configurarlo usando config, no voy a poder hacerlo porque no tengo la variable:
+
+-> **label= Label(root, text="Welcome").place(x=160, y =200)**
+
+```Python
+from tkinter import *
+
+root = Tk()
+root.title("Hi!")
+root.config(width=400, height=500)
+label = Label(root, text="Hello world") 
+label.place(x=150, y=100)
+# si la variable label luego no la voy a modificar, puedo hacerlo todo junto sin usar variable, pero si mas adelante quiero configurarlo usando config, no voy a poder hacerlo porque no tengo la variable
+label= Label(root, text="Welcome").place(x=160, y=200)
+root.mainloop()
+```
+
+- A las label las puedo configurar...
+
+... dandole color de fondo con **.config(bg="color")** 
+
+... dandole el color de las letras con **fg="color"**
+
+... dandole el font-family y el tamaño co **font="family", tamaño**
+
+```Python
+from tkinter import *
+
+root = Tk()
+root.title("Hi!")
+root.config(width=400, height=500)
+
+label = Label(root, text="Hello world") 
+label.place(x=150, y=100)
+label.config(bg="green", fg="white", font=("Curier",20)) # color de fondo verde , el color de letra blanco, la fuente le puedo determinar la familia y el tamaño
+
+label = Label(root, text="Welcome")
+label.place(x=155, y=200)
+label.config(bg="red") # color de fondo rojo
+
+root.mainloop()
+```
+
+
+- Si quiero cambiar el texto dinamicamente utilizo **StringVar**
+
+```Python
+from tkinter import *
+
+root = Tk()
+
+texto_nuevo = StringVar() # es la variable en la cual voy a guardar el texto dinamico
+texto_nuevo.set("Python") # es mi texto dinamico
+
+root.title("Hi!")
+root.config(width=400, height=500)
+
+label = Label(root, text="Hello world") 
+label.place(x=100, y=50) 
+label.config(bg="green", fg="white", font=("Curier",20))
+
+label = Label(root, text="Welcome")
+label.place(x=110, y=150)
+label.config(bg="red",font=("Curier",18), textvariable=texto_nuevo) # textvariable=texto_nuevo para el texto dinamico
+
+root.mainloop()
+```
+
+Creo el archivo **interfaz4.py** para mostrar una imagen en el label
+
+```Python
+from tkinter import *
+
+root=Tk()
+
+root.title("Hi!")
+
+imagen = PhotoImage(file="fondo.jpg") # las imagenes pueden ser .gif o .jpg y debe estar dentro de la carpeta raiz donde esta este archivo
+label = Label(root, image=imagen)
+label.pack()
+
+root.mainloop()
+```
+
+
 ---
 
 ## :star:  Entry Campo Texto
+
+
+```Python
+```
+
+
+```Python
+```
+
+```Python
+```
+
+```Python
+```
+
+
+```Python
+```
 
 ---
 
