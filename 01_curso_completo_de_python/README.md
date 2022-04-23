@@ -2218,12 +2218,74 @@ root.mainloop()
 
 ## :star:  Entry Campo Texto
 
+Creo el archivo **dia12_entry.py**
+
+-> **entrada = Entry(frame)** para tener una variable en la cual almacenar al entrada
 
 ```Python
+from tkinter import*
+
+root= Tk()
+
+root.title("Hi!")# le cambio la etiqueta
+frame = Frame(root, width=500, height=400) # creo un Frame y le doy ancho y altzone
+frame.pack()
+entrada = Entry(frame) # creo la variable entrada que va a guardar mi Entry
+entrada.pack() # la empaqueto
+root.mainloop()
 ```
 
+Para poder acomodar tanto los **labels** como los **entry** se trabaja con grillas(**grid**)
+
+Las columnas van en forma vertical
+
+las filas van en forma horizontal
+
+```
+     Column0  Column1  Column2  Column3
+Row0 label1   entry1
+Row1 label2   entry2
+Row2
+Row3
+```
+
+-> **entrada_nombre = Entry(frame)** me crea la variable entrada_nombre que me va a almacenar el nombre que ingrese
+
+-> **entrada_nombre.grid(row=0, column=1, sticky="n", pady=10)**  la ubico en grilla por medio de la fila y columna que utilizara, con sticky lo ubico pegado hacia el norte(n) -al borde top- y le agrego un padding top de 10px
+
+-> **entrada_nombre.config(justify="center")**  asi centro el texto en el medio y comienzo a escribir desde el medio con **justify="center"**
+
+->  **entrada_nombre.config(justify="center", state="disable")** si quiero deshabilitar el entry uso **state="disable"**, el estado por defecto es **normal**
+
+->  **entrada_nombre.config(justify="center", show="*")** si por ejemplo tnego que ingresar un apsword y no quiero que se vea la contraseña, porgo para que se me vean asteriscos con **show="*"**
+
+-> **label_nombre = Label(frame, text="Nombre: ")** para crear el label para el texto nombre
+
+-> **label_nombre.grid(row=0, column=0, padx=5, pady=5**) lo ubico por **grid** diciendo en que fila(**row**) y columna(**column**) estara, y tambien le agrego padding left y right con **padx** y padding top y bottom con **pady**
 
 ```Python
+from tkinter import*
+
+root= Tk()
+
+root.title("Hi!")
+frame = Frame(root, width=500, height=400) 
+frame.pack()
+
+entrada_nombre = Entry(frame) # creo la variable entrada_nombre que va a guardar mi Entry del nombre ingresado
+entrada_nombre.grid(row=0, column=1, sticky="n", pady=10) # la empaqueto y ubico en grilla , con sticky lo ubico pegado hacia el norte, al borde top y le agrego un padding top de 10px
+entrada_nombre.config(justify="center") # asi centro el texto en el medio y comienzo a escribir desde el medio 
+
+entrada_apellido = Entry(frame) # creo la variable entrada_apellido que va a guardar mi Entry del apellido que ingrese
+entrada_apellido.grid(row=1, column=1) # la empaqueto y ubico en grilla
+
+label_nombre = Label(frame, text="Nombre: ") # creo el label para el texto nombre
+label_nombre.grid(row=0, column=0) # Lo ubico por grid
+
+label_apellido = Label(frame, text="Apellido: ")
+label_apellido.grid(row=1, column=0)
+
+root.mainloop()
 ```
 
 ```Python
