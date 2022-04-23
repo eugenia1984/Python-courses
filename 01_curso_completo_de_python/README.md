@@ -2585,6 +2585,20 @@ root.mainloop()
 
 ## :star:  Pop ups ( Ventanas emergentes)
 
+Al mismo archivo  **dia12_menu.py** lo copio y creo el  **dia12_menu2.py** para agregar vetanas emergentes.
+
+Primero debo importar -> **from tkinter import messagebox**
+
+Para poder aplicar en las funciones algunos de estos métodos:
+
+**messagebox.askquestion** -> Para que salga una pregunta con opcion : si / no
+
+**messagebox.showinfo** -> Para mostrar algo informativo, un texto
+
+**messagebox.showwarning** -> muestra al ! dentro de un triangulo con el boton de aceptar
+
+**messagebox.showerror** -> muestra la x dentro de un circulo con el boton aceptar
+
 
 ```Python
 ```
