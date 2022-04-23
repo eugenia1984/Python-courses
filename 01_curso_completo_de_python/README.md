@@ -1899,6 +1899,12 @@ for i in miPersona: # con el for itero Persona por Persona
 # :book: Interfaz grafica
 
 
+
+---
+
+## :star: Tk Raiz
+
+
 Estructura basica:
 
 ```Python
@@ -1953,23 +1959,94 @@ root.iconbitmap("pupo.ico") # entre los () agrego el nombre del archivo que tien
 root.mainloop() 
 ```
 
-
----
-
-## :star: Tk Raiz
-
+- Sin usar **frame** le puedo modificar el ancho y alto de la ventana, con **.geometry**:
 ```Python
-```
-
-```Python
-```
-
-```Python
+root.geometry("600x350")
 ```
 
 ---
 
 ## :star: Frame
+
+Me creo el archivo **interfaz2.py**.
+
+- Para aplicar un alto y ancho determinado con **.config(width= , height= )** y modifico el cursor con **.config(cursor="")**:
+
+```Python
+from tkinter import *
+
+root=Tk() 
+root.title('Hola') 
+root.resizable(1, 1) 
+miFrame = Frame(root) 
+miFrame.pack() 
+miFrame.config(width=400, height=600) # le doy un ancho y alto
+miFrame.config(cursor="boat") # para darle un cambio de cursor, cuando pase el mouse por el Frame se hace un barco, otro es el "pirate"
+root.mainloop() # para mantener la ventana abierta .mainloop() debe estar por debajo del contenido que le agregamos a la ventana
+```
+
+- Para aplicar un color de fondo : **.config(bg=" ")**:
+```Python
+from tkinter import *
+
+root=Tk() 
+root.title('Hola') 
+root.resizable(1, 1) 
+miFrame = Frame(root) 
+miFrame.pack() 
+miFrame.config(width=400, height=600) 
+miFrame.config(cursor="boat")
+miFrame.config(bg="red") # para cambiar el color de fondo bg= background
+miFrame.config(bd="20") # para indicarle un tamaño a un borde
+miFrame.config(relief="sunken") # para ver un tipo de borde, otro metodo es "ridge"
+root.mainloop() # para mantener la ventana abierta .mainloop() debe estar por debajo del contenido que le agregamos a la ventana
+```
+
+Tambien se lo puedo aplicar a **root**:
+```Python
+from tkinter import *
+
+root=Tk() 
+root.title('Hola') 
+root.resizable(1, 1) 
+miFrame = Frame(root) 
+miFrame.pack()
+miFrame.config(width=400, height=600
+miFrame.config(cursor="boat") 
+miFrame.config(bg="red") 
+miFrame.config(bd="20")
+miFrame.config(relief="sunken") 
+# este mismo metodo se puede aplicar al root
+root.config(cursor="pirate")
+root.config(bg="white") 
+root.config(bd="10")
+root.config(relief="ridge") 
+root.mainloop() # para mantener la ventana abierta .mainloop() debe estar por debajo del contenido que le agregamos a la ventana
+```
+
+- Si quiero que al agrandar al ventana el frame quede ubicado en otro lado que no sea el TOP-CENTER:
+
+```Python
+from tkinter import *
+
+root=Tk() 
+root.title('Hola') 
+root.resizable(1, 1) 
+miFrame = Frame(root) 
+miFrame.pack(side=LEFT) # lo empaqueto y para reubicar a mi Frame a la izquierda con LEFT, los otros metodos son: RIGHT, BOTTOM, al ampliarlo se mueve al lugar indicado
+miFrame.config(width=400, height=600)
+miFrame.config(cursor="boat") 
+miFrame.config(bg="red") 
+miFrame.config(bd="20") 
+miFrame.config(relief="sunken")
+root.config(cursor="pirate")
+root.config(bg="white") 
+root.config(bd="10")
+root.config(relief="ridge") 
+```
+
+```Python
+```
 
 ---
 
