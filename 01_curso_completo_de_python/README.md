@@ -2324,16 +2324,36 @@ label.config(bg="red", fg="white", font=("Curier,20"))
 root.mainloop()
 ```
 
-```Python
-```
-
-
-```Python
-```
 ---
 
 ## :star:  Button
 
+Creo el archivo **dia12_button.py**
+
+```Python
+from tkinter import*
+
+root = Tk()
+
+frame= Frame(root)
+frame.pack()
+
+boton1 = Button(frame, text="Enviar") # creo la variable boton1 para guardar el boton que va a tener dentro el texto Enviar
+boton1.pack()# lo empaqueto
+
+root.mainloop()
+```
+
+
+```Python
+```
+
+```Python
+```
+
+
+```Python
+```
 ---
 
 ## :star:  Radio Button
