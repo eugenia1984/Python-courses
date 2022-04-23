@@ -2376,8 +2376,14 @@ root.mainloop()
 
 ## :star:  Radio Button
 
+Creo el archivo **dia12_radio_button.py**
 
+Por defecto se me van a quedar ambos radio buttons seleccionados, por ello creo la variable **opciones** que va a ser una variable de tipo int y la aplico a cada uno de los radio buttons y ademas a cada uno le debo dar un valor (**value**)
 ```Python
+opciones = IntVar()
+
+Radiobutton(root, text="Masculino", variable=opciones, value=1).pack() # creo un radio button, lo ubico en root, y con el texto Masculino. lo empaqueto
+Radiobutton(root, text="Femenino", variable=opciones, value=2).pack() # creo un radio button, lo ubico en root, y con el texto Femenino. lo empaqueto
 ```
 
 ```Python
