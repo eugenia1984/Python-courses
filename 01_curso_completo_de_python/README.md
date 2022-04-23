@@ -2685,9 +2685,11 @@ root.mainloop()
 
 ## :star:  Ejercicio final calculadora
 
-
+Creo el archivo **dia12_calculadora.py**
 
 ```Python
+
+
 ```
 ---
 ---
