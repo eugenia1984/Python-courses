@@ -1893,4 +1893,132 @@ for i in miPersona: # con el for itero Persona por Persona
   print(i.datosPersonales())
 ```
 
-## :star: Tarea
+---
+---
+
+# :book: Interfaz grafica
+
+
+Estructura basica:
+
+```Python
+from tkinter import *
+
+root=Tk()
+
+root.mainloop() # para mantener la ventana abierta, debe estar por debajo del contenido que le agregamos a la ventana
+```
+
+- Si le quiero modificar el titulo que aparece en la ventana:
+```Python
+from tkinter import *
+
+root=Tk()
+root.title('Practica') # asi modifico el titulo
+# quiero darle un tamaño fijo de ancho y alto y que el usuario no manipule si tamaño
+root.mainloop() 
+```
+
+- Si quiero cambiar para que el usuario no pueda modificar el tamaño de mi ventana tanto a lo alto como a lo ancho, tengo algunas alternativas, con **.resizable()**:
+
+-> (0,0) no se puede cambiar ni a lo ancho ni a lo alto, en el caso de que quiero darle un tamaño fijo de ancho y alto y que el usuario no manipule si tamaño
+
+-> (0, 1) Le puedo modificar el ancho pero no el alto
+
+-> (1, 0) Le puedo modificar el alto pero no el ancho
+
+-> (1, 1) Le puedo modificar tanto el ancho como el alto
+
+Además de **0** y **1** puedo usar **True** y **False**
+
+por ejemplo: (0, 1) = (True, False )
+
+```Python
+from tkinter import *
+
+root=Tk()
+root.title('Practica')
+root.resizable(True, False) # (0, 1) le puedo modificar el ancho pero no el alto
+root.mainloop() 
+```
+
+- Si le quiero cambiar la imagen que viene por defecto, la pluma, debo tener una imagen en formato ico de 48pxX48px, dentro de la carpeta **dia12_interfaces_graficas** tengo un archivo pulpo.ico
+```Python
+from tkinter import *
+
+root=Tk()
+root.title('Practica')
+root.resizable(True, False) # (0, 1) le puedo modificar el ancho pero no el alto
+root.iconbitmap("pupo.ico") # entre los () agrego el nombre del archivo que tiene la imagen .ico 48*48
+root.mainloop() 
+```
+
+
+---
+
+## :star: Tk Raiz
+
+```Python
+```
+
+```Python
+```
+
+```Python
+```
+
+---
+
+## :star: Frame
+
+---
+
+## :star:  Label
+
+---
+
+## :star:  Entry Campo Texto
+
+---
+
+## :star:  Text
+
+---
+
+## :star:  Button
+
+---
+
+## :star:  Radio Button
+
+---
+
+## :star: ListBox
+
+---
+
+
+## :star:  Check Button
+
+---
+
+
+## :star: Spinbox
+
+---
+
+
+## :star:  Menu
+
+---
+
+
+## :star:  Pop ups ( Ventanas emergentes)
+
+
+---
+
+## :star:  Ejercicio final calculadora
+
+---
+---
