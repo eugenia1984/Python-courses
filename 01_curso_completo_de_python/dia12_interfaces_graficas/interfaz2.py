@@ -5,7 +5,7 @@ root.title('Hola')
 root.resizable(1, 1) 
 # creo el Frame e indico esta dentro de la raiz (root)
 miFrame = Frame(root) 
-miFrame.pack(side=LEFT) # lo empaqueto y para reubicar a mi Frame a la izquierda con LEFT, los otros metodos son: RIGHT, BOTTOM, al ampliarlo se mueve al lugar indicado
+miFrame.pack(fill="x", expand=1) 
 miFrame.config(width=400, height=600) # le doy un ancho y alto
 miFrame.config(cursor="boat") # para darle un cambio de cursor, cuando pase el mouse por el Frame se hace un barco, otro es el "pirate"
 miFrame.config(bg="red") # para cambiar el color de fondo bg= background

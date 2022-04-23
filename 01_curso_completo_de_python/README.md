@@ -2024,7 +2024,7 @@ root.config(relief="ridge")
 root.mainloop() # para mantener la ventana abierta .mainloop() debe estar por debajo del contenido que le agregamos a la ventana
 ```
 
-- Si quiero que al agrandar al ventana el frame quede ubicado en otro lado que no sea el TOP-CENTER:
+- Si quiero que al agrandar al ventana el frame quede ubicado en otro lado que no sea el TOP-CENTER, utilizando **.pack(side= )**:
 
 ```Python
 from tkinter import *
@@ -2043,6 +2043,56 @@ root.config(cursor="pirate")
 root.config(bg="white") 
 root.config(bd="10")
 root.config(relief="ridge") 
+```
+
+- Si lo quiero localizar en otro lugar utilizo el ANCHOR y los puntos cardinales **w**(west), **n**(north, norte), etc.
+
+```Python
+from tkinter import *
+
+root=Tk() 
+root.title('Hola') 
+root.resizable(1, 1) 
+miFrame = Frame(root) 
+miFrame.pack(side=LEFT, anchor="n") # lo empaqueto y para reubicar a mi Frame a la izquierda con LEFT, los otros metodos son: RIGHT, BOTTOM, al ampliarlo se mueve al lugar indicado
+miFrame.config(width=400, height=600)
+miFrame.config(cursor="boat") 
+miFrame.config(bg="red") 
+miFrame.config(bd="20") 
+miFrame.config(relief="sunken")
+root.config(cursor="pirate")
+root.config(bg="white") 
+root.config(bd="10")
+root.config(relief="ridge")
+```
+
+- Si quiero que este en toda la pantalla
+```Python
+from tkinter import *
+
+root=Tk() 
+root.title('Hola') 
+root.resizable(1, 1) 
+miFrame = Frame(root) 
+miFrame.pack(fill="x", expand=1) 
+# con X se va a desplazar sobre el eje X por lo que a medida que ensanche la ventana el fram se ensancha, pero si amplio hacia arriba no se agranda
+# con Y se ensancha sobre el eje Y o sea en la altura
+# si quiero tanto en X como en Y
+miFrame.config(width=400, height=600)
+miFrame.config(cursor="boat") 
+miFrame.config(bg="red") 
+miFrame.config(bd="20") 
+miFrame.config(relief="sunken")
+root.config(cursor="pirate")
+root.config(bg="white") 
+root.config(bd="10")
+root.config(relief="ridge")
+```
+
+```Python
+```
+
+```Python
 ```
 
 ```Python
