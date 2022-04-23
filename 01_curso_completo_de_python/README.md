@@ -2417,6 +2417,7 @@ root.mainloop()
 
 ## :star: ListBox
 
+Creo el archivo **dia12_list_box.py**
 
 ```Python
 ```
