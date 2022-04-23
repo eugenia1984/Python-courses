@@ -1815,6 +1815,39 @@ fichero3.close()
 
 ## :star: Serializacion Objeto
 
+Creo el archivo **dia11_serializacion.py** e importo la libreria **pickle**
+
+
+### Para el modo de escritura binaria
+
+```Python
+import pickle # importo la libreria pickle
+
+lista = ['Maria', 'Pedro', 'Jose', 'Paola']
+
+fichero = open('lista', 'wb') # abro el fichero en wb escritura binaria
+
+pickle.dump(lista, fichero)
+
+fichero.close() # cierro el fichero
+```
+
+Se me crea el archivo **lista**, como esta en **codigo binario** no lo puedo ver en Visual Studio Code.
+
+### Para el modo de lectura binaria
+
+```Python
+fichero = open('lista', 'rb') #rb lectura binario
+lista = pickle.load(fichero)
+fichero.close()
+print(lista) 
+```
+
+-> Por pantalla veo: ```['Maria', 'Pedro', 'Jose', 'Paola']```
+
+puedo aplicar el metodo **len()**
+
 ## :star: Serializacion Clase
+
 
 ## :star: Tarea
