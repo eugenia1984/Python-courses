@@ -2456,7 +2456,9 @@ root.mainloop()
 
 ## :star:  Check Button
 
-Los check buttons permiten seleccionar más de una opción a la vez
+Los check buttons permiten seleccionar más de una opción a la vez.
+
+Creo el archivo **dia12_check_button.py**
 
 ```Python
 ```
