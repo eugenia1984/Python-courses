@@ -2288,20 +2288,48 @@ label_apellido.grid(row=1, column=0)
 root.mainloop()
 ```
 
-```Python
-```
-
-```Python
-```
-
-
-```Python
-```
-
 ---
 
 ## :star:  Text
 
+Los campos de texto. Creo el archivo **dia12_text.py**
+
+
+-> **texto.config(width=40, height=15, padx=15, pady=15, font=("Curier, 15"), selectbackground="yellow")**
+
+**texto.config(width=40, height=15)** ->  le doy un tamaño dando ancho y alto, no es pixeles, sino la cantida de caracteres.
+ 
+**texto.config(padx=15, pady=15)**  -> le doy un padding tanto en x como en y para despegarlo del borde al texto
+ 
+**texto.config(font=("Curier, 15"))** -> le agregao tipo de fuente y tamaño
+
+**texto.config(selectbackground="yellow")** -> si selecciono el texto tipeado voy a ver fondo amarillo
+
+```Python
+from tkinter import*
+
+root=Tk()
+
+root.title("Hi!")
+
+
+texto = Text(root) 
+texto.pack()
+texto.config(width=40, height=15, padx=15, pady=15, font=("Curier, 15"), selectbackground="yellow") 
+
+label = Label(root, text="Escribe aqui:")
+label.pack()
+label.config(bg="red", fg="white", font=("Curier,20")) 
+
+root.mainloop()
+```
+
+```Python
+```
+
+
+```Python
+```
 ---
 
 ## :star:  Button
