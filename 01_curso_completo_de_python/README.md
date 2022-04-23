@@ -2520,7 +2520,9 @@ root.mainloop()
 
 ## :star: Spinbox
 
-Veo una de las opciones y a la derecha tengo las flechas hacia arriba y hacia abajo para ver mas opciones
+Veo una de las opciones y a la derecha tengo las flechas hacia arriba y hacia abajo para ver mas opciones.
+
+Creo el archivo **dia12_spin_box.py**:
 
 ```Python
 from tkinter import*
@@ -2538,13 +2540,15 @@ e.pack()
 root.mainloop()
 ```
 
-
-```Python
-```
 ---
 
 
 ## :star:  Menu
+
+Creo el archivo **dia12_menu.py** para crear un menu con subopciones
+
+```Python
+```
 
 ---
 
@@ -2552,9 +2556,15 @@ root.mainloop()
 ## :star:  Pop ups ( Ventanas emergentes)
 
 
+```Python
+```
+
 ---
 
 ## :star:  Ejercicio final calculadora
 
+
+```Python
+```
 ---
 ---
