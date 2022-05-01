@@ -768,6 +768,26 @@ Una vez que esta todo ok: ``` > pip freeze``` que muestra todos los paquetes ins
 
 ### Que son los errores y las excepciones
 
+Es importante que el programa sea a prueba de errores.
+
+En Python hay distintos tipos de errores, como por ejemplo...
+
+... **error de sintaxis** cuando escribimos mal, por ejemplo nos olvidamos un parentesis.
+
+... **error por variable no definida**, cuando llamamos a una variable sin antes haberla creado.
+
+... **error al dividir por cero**
+
+... **error por tipo de dato**, por ejemplo al sumar un string con un numero
+
+
+
+En Python existen dos tipos de errores:
+
+- errores de sintaxis, cuando escribimos mal una sentencia
+
+- las excepciones, cuando auqnue las instrucciones están escritas de manera correcta generar un error (como la division por cero, variable no definida, eror por tipo de dato). Ocurren durante la ejecución del programa.
+
 ### Errores de sintaxis en Python
 
 ### Levantar exepciones en Python
