@@ -234,13 +234,40 @@ Output: 9 (Los pasos a seguir son: 13, 40, 20, 10, 5, 16, 8, 4, 2, 1)
 
 # :star: Sexto : curso de Linkedin Learning : Python esencial, de Ana María Pinto
 
-:computer: Podés ver la teoría y la práctica en [06 python esencial](https://github.com/eugenia1984/Python-courses/tree/main/06_python_esencial)
+:computer: Podés ver la teoría y la práctica en -> [06 python esencial](https://github.com/eugenia1984/Python-courses/tree/main/06_python_esencial), donde verás
+
+- [01_conceptos_basicos.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/01_conceptos_basicos.py)
+
+- [02_estructuras_de_datos.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/02_estructuras_de_datos.py) 
+
+- [03_condiciones_ciclos.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/03_condiciones_ciclos.py) 
+
+- [04_funciones.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/04_funciones.py)
+
+- [05_import.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/05_import.py)
+
+- [06_from_import.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/06_from_import.py)
+
+- [07_main.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/07_main.py)
+
+- [08_main.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/08_main.py)
+
+- [09_persona.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/09_persona.py)
+
+- [10_persona.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/10_persona.py)
+
+- [11_persona.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/11_persona.py)
+
+- [12_persona.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/12_persona.py)
+
+- [13_herencia.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/13_herencia.py)
+
+- [El paquete **figuras**](https://github.com/eugenia1984/Python-courses/tree/main/06_python_esencial/figuras)
+
+
 
 ---
 ---
-
-
-
 
 
 ## Contenido 🚀
