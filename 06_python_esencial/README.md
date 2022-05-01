@@ -790,6 +790,31 @@ En Python existen dos tipos de errores:
 
 ### Errores de sintaxis en Python
 
+
+Hacen referencia a los errores que ocurren en Python cuando una instrucción está mal escrita.
+
+Al ejecutar el programa aparece que el tipo de error es **SyntaxError**, un ejemplo:
+
+```Python
+print"hola"
+```
+
+Por que no incluí los paréntesis, me indica la linea donde tengo el error.
+
+Si utilizo VSC voy a tener una linea que me marca el error.
+
+Para evitar errores de sintaxis, hay que tener en cuenta:
+
+- no usar palabras reservadas como nombres de variables
+
+- asegurarse que los bloques de codigos esten con :
+
+- asegurarse de estar bien identados
+
+- cuando escribir variables de texto hay que abrir y cerrar con el mismo tipo de comillas
+
+- asegurarse de cerrar, parentesis, llaves o corchetes en las estructuras de datos que se utilizano en las sentencias que lo requieran
+- 
 ### Levantar exepciones en Python
 
 ### Assertion Error en Python
