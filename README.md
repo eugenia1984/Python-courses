@@ -265,9 +265,14 @@ Output: 9 (Los pasos a seguir son: 13, 40, 20, 10, 5, 16, 8, 4, 2, 1)
 - [14_exception.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/14_exception.py)
 
 - [15_assertion.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/15_assertion.py)
-- 
+
+- [16_try_except.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/16_try_except.py)
+
+- [17_try_except.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/17_try_except.py)
+
 - [El paquete **figuras**](https://github.com/eugenia1984/Python-courses/tree/main/06_python_esencial/figuras)
 
+- [Ver certificado](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/LI_Python%20esencial.pdf)
 
 
 ---
