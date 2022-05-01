@@ -814,8 +814,27 @@ Para evitar errores de sintaxis, hay que tener en cuenta:
 - cuando escribir variables de texto hay que abrir y cerrar con el mismo tipo de comillas
 
 - asegurarse de cerrar, parentesis, llaves o corchetes en las estructuras de datos que se utilizano en las sentencias que lo requieran
-- 
+
+
 ### Levantar exepciones en Python
+
+Se pueden programar desde el codigo usando **Raise Exception**, para cuando queremos que al cumplir una condición nuestro código termine en un error.
+
+Para mostrar un ejemplo crearemos una función para validar un número, si el número es menor a 1 la función levantará una excepción e iprimirá un mensaje. Si el número es mayor se imprimirá un mensaje, sin levantar ningún tipo de error.
+
+Creo el archivo **_exception.py**:
+
+```Python
+def validar_x(x):
+  if x<1:
+    raise Exception("La variable x debe ser mayor a 1")
+  else:
+    print("x es mayor a 1")
+
+x = 0.3
+validar_x(x) # Exception: La variable x debe ser mayor a 1
+x = 2
+validar
 
 ### Assertion Error en Python
 
