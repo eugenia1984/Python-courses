@@ -744,7 +744,23 @@ Si necesitamos **borrar el ambiente**: ```> rmdir env /s```, mara **mac** o **lu
 
 ### Archivo de requerimientos para proyectos de Python
 
+Es un archivo de texto plano que se crea con el fin de tenr en una lista todas las librerías que se requieren para un proyecto, nos permite que todas las personas involucradas tengan las mismas versiones de las librerías y no existan conflictos entre los desarrolladores y los ambientes de desarrollo.
 
+Creamos el archivo: **requirements.txt**, por estandar se utilliza este nombre.
+
+```
+flask==2.0.
+```
+
+No es necesario que en el archivo las librerías tienen la versión, pero es recomendable especificarlo para evitar conflicto de paquetes en el futuro.
+
+Para instalar las librerias de requerimineto, por terminal:
+
+```> pip install -r requirements.txt```
+
+Y en la terminal vemos que los paquetes se instalan y descargan
+
+Una vez que esta todo ok: ``` > pip freeze``` que muestra todos los paquetes instalados, algunas instalamos a través del archivo de requerimientos, otras vienen instaladas con nuestro ambiente y otras son las dependencias de las librerías que instalamos del archivo requeriments.txt
 ---
 ---
 
