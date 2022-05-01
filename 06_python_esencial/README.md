@@ -705,6 +705,42 @@ En el caso de t¡necesitar **desinstalar** un paquete o una librería:
 
 ### Introducción a ambientes virtuales
 
+Son desarrollo aislado que creamos para cada proyecto que estemos desarrollando, estos ambientes contienen unicamente los paquetes necesarios para el proyecto.
+
+Sus ventajas:
+
+- independencia entre proyectos
+
+- manejo de diferentes paquetes y versiones entre proyectos
+
+- facilidad de borrar paquetes en caso de conflictos
+
+Librerías para ambientes:
+
+- virtualenv
+
+- Venv
+
+- Anaconda
+
+## ¿ Cómo crear un ambiente virtual usando virtualenv ?
+
+Es bastante estable y compatible con una gran cantidad de librerías.
+
+Para **instalarlo**: ```> pip install virtualenv ```
+
+Los ambientes con virtualenv se crean dentro de la carpeta donde estamos ubicados, por eso se recomienda que para cada proyecto se tenga un ambiente propio.
+
+Para **crear un ambiente** : ```> virtualenv <nombre del ambiente>```, por ejemplo ```> virtualenv env``` y ahora tengo una carpeta llamada **env**, donde tengo el ambiente.
+
+Para **activar el ambiente**: ```>env\Scripts\activate ``` vamos a ver en el path delante **(env)**
+
+Para **mac** o **linux**: ```source env/bin/activate```
+
+Para **desactivar el ambiente** con : ```> deactivate``` y ya en el path no vamos a tener entre () el nombre del ambiente.
+
+Si necesitamos **borrar el ambiente**: ```> rmdir env /s```, mara **mac** o **lunx** es ``` rm -f env```
+
 
 ### Archivo de requerimientos para proyectos de Python
 
