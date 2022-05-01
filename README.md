@@ -150,7 +150,7 @@ Y 2 MINI - DESAFIOS:
 
 * [**modulo1-6-flujodeprograma-for.py*](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/modulo1-6-flujodeprograma-for.py): Ejemplos de estructura FOR. 
 
-**MINI-DEAFIO FOR** : Mostrar la siguiente secuencia de datos utilizando la instrucción for y la instrucción if: 0, 1, 4, 9, 16, 25, 6, 7, 8, 9. 
+**MINI-DESAFIO FOR** : Mostrar la siguiente secuencia de datos utilizando la instrucción for y la instrucción if: 0, 1, 4, 9, 16, 25, 6, 7, 8, 9. 
 
 * [**modulo1-7-funciones.py**](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/modulo1-7-funciones.py) : Ejemplo de funciones y el **MINI-DESAFIO FUNCIONES** : Escribir una función que chequee los siguientes usuarios y contraseñas: 
 
@@ -232,6 +232,12 @@ Output: 9 (Los pasos a seguir son: 13, 40, 20, 10, 5, 16, 8, 4, 2, 1)
 ---
 ---
 
+# :star: Sexto : curso de Linkedin Learning : Python esencial, de Ana María Pinto
+
+:computer: Podés ver la teoría y la práctica en [06 python esencial](https://github.com/eugenia1984/Python-courses/tree/main/06_python_esencial)
+
+---
+---
 
 
 
@@ -372,6 +378,86 @@ I’m taking the *Juan Pablo De la Torre Valdez*   *Udemy*s  course : ‘Introdu
 * 24- [encapsulamiento.py](https://github.com/eugenia1984/Python-courses/blob/main/02_introduccion_a_la_programacion_con_python/24-encapsulamiento.py)
 
 :computer: You can take a look of the theory and my exercises here -> [**02_introduccion_a_la_programacion_con_python**](https://github.com/eugenia1984/Python-courses/tree/main/02_introduccion_a_la_programacion_con_python)
+
+---
+
+# :star: Third: Curso de Python
+
+* [**modulo1-1-variables.py**](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/modulo1-1-variables.py)
+
+* [**modulo1-2-operacionesbasicas-modificacion.py**](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/modulo1-2-operacionesbasicas-modificacion.py):
+
+* [**modulo1-3-operacionesbasicasdeprogramacion.py**](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/modulo1-3-operacionesdecomparacion.py)
+
+* [**modulo1-4-flujodeprograma-if.py**](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/modulo1-4-flujodeprograma-if.py)
+
+* [**modulo1-5-flujosdeprograma-while.py**](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/modulo1-5-flujosdeprograma-while.py)
+
+* [**modulo1-6-flujodeprograma-for.py*](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/modulo1-6-flujodeprograma-for.py)
+
+
+* [**modulo1-7-funciones.py**](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/modulo1-7-funciones.py) 
+
+* [**modulo1-8-funcionesrepercusion.py**](https://github.com/eugenia1984/Python-courses/blob/main/03_curso_de_python/*modulo1-8-funcionesrepercusion.py) 
+
+
+:computer: All the theory here -> [**03_curso_de_python**](https://github.com/eugenia1984/Python-courses/tree/main/03_curso_de_python)
+
+
+---
+---
+
+# :star: Fourth: Curso para principiante de fazt
+
+## What you will see
+
+- [**1-holamundo.py**](https://github.com/eugenia1984/Python-courses/blob/main/04_curso_para_principiante_fazt/1-holamundo.py)
+
+- [**2-tipo-de-datos.py**](https://github.com/eugenia1984/Python-courses/blob/main/04_curso_para_principiante_fazt/2-tipo-de-datos.py)
+
+- [**3-variable.py**](https://github.com/eugenia1984/Python-courses/blob/main/04_curso_para_principiante_fazt/3-variable.py)
+
+- [**4-string.py**](https://github.com/eugenia1984/Python-courses/blob/main/04_curso_para_principiante_fazt/4-string.py)
+- 
+- [**5-numeros.py**](https://github.com/eugenia1984/Python-courses/blob/main/04_curso_para_principiante_fazt/numeros.py)
+
+- [**6-listas.py**](https://github.com/eugenia1984/Python-courses/blob/main/04_curso_para_principiante_fazt/6-listas.py)
+
+- [**7-tuplas.py**](https://github.com/eugenia1984/Python-courses/blob/main/04_curso_para_principiante_fazt/7-tuplas.py)
+
+- [**8-sets.py**](https://github.com/eugenia1984/Python-courses/blob/main/04_curso_para_principiante_fazt/8-sets.py)
+
+- [**9-diccionarios.py**](https://github.com/eugenia1984/Python-courses/blob/main/04_curso_para_principiante_fazt/9-diccionarios.py)
+
+- [**10-condicionales.py**]((https://github.com/eugenia1984/Python-courses/blob/main/04_curso_para_principiante_fazt/10-condicionales.py)
+
+- [**11-bucles.py**](https://github.com/eugenia1984/Python-courses/blob/main/04_curso_para_principiante_fazt/11-bucles.py)
+
+- [**12-funciones.py**](https://github.com/eugenia1984/Python-courses/blob/main/04_curso_para_principiante_fazt/12-funciones.py)
+
+- [**13-modulo.py**](https://github.com/eugenia1984/Python-courses/blob/main/04_curso_para_principiante_fazt/13-modulo.py)
+
+- [**fmath.py**](https://github.com/eugenia1984/Python-courses/blob/main/04_curso_para_principiante_fazt/fmath.py)
+
+:computer: Here it's all the theory -> [**04_curso_para_principiante_fazt**](https://github.com/eugenia1984/Python-courses/tree/main/04_curso_para_principiante_fazt)
+
+
+---
+---
+
+# :star: Fifth: curso de Udemy de Numpi: Python desde cero, data analysis, matplot
+
+:computer: Here it's all the theory-> [**05_python_desde_cero_data_analysis_matplot**](https://github.com/eugenia1984/Python-courses/tree/main/05_python_desde_cero_data_analysis_matplot)
+
+---
+---
+
+# :star: Sixth : curso de Linkedin Learning : Python esencial, de Ana María Pinto
+
+:computer: Here it's all the theory [06 python esencial](https://github.com/eugenia1984/Python-courses/tree/main/06_python_esencial)
+
+---
+---
 
 ---
 
