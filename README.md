@@ -262,6 +262,8 @@ Output: 9 (Los pasos a seguir son: 13, 40, 20, 10, 5, 16, 8, 4, 2, 1)
 
 - [13_herencia.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/13_herencia.py)
 
+- [14_exception.py](https://github.com/eugenia1984/Python-courses/blob/main/06_python_esencial/14_exception.py)
+
 - [El paquete **figuras**](https://github.com/eugenia1984/Python-courses/tree/main/06_python_esencial/figuras)
 
 
