@@ -860,5 +860,55 @@ print(promedio) # 3.0
 
 ### Try-Except para el manejo de excepciones en Python
 
+Para capturar los errores y manejarlos acorde a la necesidad utilizamos **try-Except**. Dentro del bloque TRY está el código a ejecutar y en EXCEPT son las instrucciones que se ejecutan cuando tentro del bloque TRY algo falla.
+
+Como ejemplo creo el archivo **16_try_except.py**:
+
+```Python
+def calcular_promedio(lista):
+  return sum(lista)/len(lista)
+
+try:
+  promedio = calcular_promedio(lista=[])
+  print(promedio)
+except:
+  print("La funcion no calculo el promedio")
+# La funcion no calculo el promedio
+
+try:
+  promedio = calcular_promedio(lista=[1, 2, 3])
+  print(promedio)
+except:
+  print("La funcion no calculo el promedio")
+# 2.0
+
+try:
+  promedio = calcular_promedio(lista=[])
+  print(promedio)
+except Exception as e: # para saber que tipo de error tengo
+  print("La funcion no calculo el promedio")
+  print(e)
+# La funcion no calculo el promedio
+# division by zero
+```
+
+Y también creo el archivo **14_try_except.py**, para demostrar que puedo tener más de un tipo de excepción:
+
+```Python
+def calcular_promedio(lista):
+  assert len(lista)<0, "La lista esta vacia"
+  return sum(lista)/len(lista)
+
+try:
+  promedio = calcular_promedio(lista=[])
+  print(promedio)
+except AssertionError as assert_error:
+  print(assert_error)
+except Exception as e: # para saber que tipo de error tengo
+  print("La funcion no calculo el promedio")
+  print(e)
+# La lista esta vacia
+```
+
 ---
 ---
