@@ -834,9 +834,29 @@ def validar_x(x):
 x = 0.3
 validar_x(x) # Exception: La variable x debe ser mayor a 1
 x = 2
-validar
+validar_x(x) # x es mayor a 1
+```
 
 ### Assertion Error en Python
+
+
+Son errores que pueden levantarse al cumplirse una condición. Se diferencian del raise Exceotion porque no es necesario escribir explícitamente la condición, ya que el assert valida la condición y si no la cumple levanta el error.
+
+En el archivo **15_assertion.py** creamos un ejemplo en el que creamos una función que calcula el promedio de los valores de una lista y en esta función levantamos un error si la lista está vacía.
+
+La función se llamará **calcular_promedio**, va a recibir una lista con los valores de los cuales se calculará el promedio.
+
+Primero se valida que la lista contenga algún valor (**assert**) -> ```assert len(lista)>0, "La lista está vacía"```
+
+```
+def calcular_promedio(lista):
+  assert len(lista)>0, "La lista esta vacia"
+  return sum(lista)/len(lista)
+
+promedio = calcular_promedio(lista=()) # La lista esta vacia
+promedio = calcular_promedio(lista=(1, 3, 5)) # no me da error
+print(promedio) # 3.0
+```
 
 ### Try-Except para el manejo de excepciones en Python
 
